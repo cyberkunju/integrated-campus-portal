@@ -1,0 +1,354 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900;
+    min-height: 100vh;
+  }
+}
+
+@layer utilities {
+  .hover-card {
+    transition: all 0.3s ease !important;
+  }
+  
+  .hover-card:hover {
+    background: rgba(255, 255, 255, 0.4) !important;
+    transform: translateY(-8px) !important;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15) !important;
+  }
+
+  /* Hide scrollbar but keep functionality */
+  .scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;  /* Chrome, Safari and Opera */
+  }
+}
+
+/* Global scrollbar hiding - applies to entire app */
+* {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+*::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari and Opera */
+}
+
+/* Ensure body and html also hide scrollbars */
+html, body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Enhanced Select Dropdown Styling */
+select {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3E%3Cpath stroke='%2314b8a6' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 8l4 4 4-4'/%3E%3C/svg%3E");
+  background-position: right 1rem center;
+  background-repeat: no-repeat;
+  background-size: 1.25em 1.25em;
+  padding-right: 3rem;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+  border-radius: 0.75rem;
+  font-weight: 500;
+}
+
+.dark select {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3E%3Cpath stroke='%235eead4' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M6 8l4 4 4-4'/%3E%3C/svg%3E");
+}
+
+/* Select dropdown menu styling - rounded corners */
+select::-ms-expand {
+  display: none;
+}
+
+/* Webkit scrollbar for select dropdown */
+select::-webkit-scrollbar {
+  width: 8px;
+}
+
+select::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+}
+
+select::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #14b8a6 0%, #0d9488 100%);
+  border-radius: 10px;
+}
+
+/* Dropdown menu container - rounded corners */
+select[size],
+select[multiple] {
+  border-radius: 1rem !important;
+  overflow: hidden;
+}
+
+/* Select dropdown options styling */
+select option {
+  background-color: #ffffff;
+  color: #1e293b;
+  padding: 14px 20px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.5;
+  border: none;
+  margin: 0;
+  border-radius: 0;
+}
+
+.dark select option {
+  background-color: #1f2937;
+  color: #f1f5f9;
+}
+
+/* First and last option rounded corners */
+select option:first-child {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  padding-top: 16px;
+}
+
+select option:last-child {
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  padding-bottom: 16px;
+}
+
+/* Selected/Checked option - Teal gradient */
+select option:checked {
+  background: linear-gradient(135deg, #14b8a6 0%, #0d9488 100%) !important;
+  color: white !important;
+  font-weight: 600;
+}
+
+/* Hover state for options */
+select option:hover {
+  background: linear-gradient(135deg, rgba(20, 184, 166, 0.15) 0%, rgba(13, 148, 136, 0.15) 100%) !important;
+  color: #0d9488 !important;
+  font-weight: 600;
+}
+
+.dark select option:hover {
+  background: linear-gradient(135deg, rgba(20, 184, 166, 0.25) 0%, rgba(13, 148, 136, 0.25) 100%) !important;
+  color: #5eead4 !important;
+}
+
+/* Select focus state */
+select:focus {
+  outline: none;
+  border-color: #14b8a6;
+  box-shadow: 0 0 0 4px rgba(20, 184, 166, 0.15);
+  transform: translateY(-1px);
+}
+
+/* Select hover state */
+select:hover {
+  border-color: #14b8a6;
+  background-color: rgba(255, 255, 255, 0.8);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(20, 184, 166, 0.15);
+}
+
+.dark select:hover {
+  background-color: rgba(31, 41, 55, 0.8);
+  box-shadow: 0 6px 16px rgba(20, 184, 166, 0.2);
+}
+
+/* Active/Open state */
+select:active {
+  transform: translateY(0);
+}
+
+/* Transition Overlay - 4 Panel Wipe Effect */
+.transition-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 9999;
+  pointer-events: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 0;
+}
+
+.transition-panel {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.transition-panel::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at center, rgba(255,255,255,0.1) 0%, transparent 70%);
+}
+
+/* Remove number input arrows */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+/* Smooth Calendar Popup Animations */
+
+/* Calendar icon styling */
+input[type="date"]::-webkit-calendar-picker-indicator {
+  cursor: pointer;
+  opacity: 0.6;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  filter: invert(0.5);
+  padding: 8px;
+  border-radius: 6px;
+}
+
+input[type="date"]:hover::-webkit-calendar-picker-indicator {
+  opacity: 1;
+  transform: scale(1.1);
+  filter: invert(0.3);
+  background: rgba(20, 184, 166, 0.1);
+}
+
+input[type="date"]:focus::-webkit-calendar-picker-indicator {
+  opacity: 1;
+  animation: pulse 1.5s ease-in-out infinite;
+}
+
+/* Calendar icon click animation */
+input[type="date"]::-webkit-calendar-picker-indicator:active {
+  transform: scale(0.9);
+  transition: transform 0.1s ease;
+}
+
+/* Pulse animation for calendar icon */
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.15);
+    opacity: 0.8;
+  }
+}
+
+/* Smooth focus ring animation */
+input[type="date"]:focus {
+  animation: focusRing 0.3s ease-out;
+}
+
+@keyframes focusRing {
+  0% {
+    box-shadow: 0 0 0 0 rgba(20, 184, 166, 0.4);
+  }
+  100% {
+    box-shadow: 0 0 0 4px rgba(20, 184, 166, 0.1);
+  }
+}
+
+/* Smooth transition for date input */
+input[type="date"] {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+input[type="date"]:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark mode calendar icon */
+.dark input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(0.8);
+}
+
+.dark input[type="date"]:hover::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
+/* Calendar Popup Dropdown Animation - Chrome/Edge */
+input[type="date"]::-webkit-calendar-picker-indicator::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+
+/* Animate the calendar popup when it opens */
+@keyframes calendarSlideIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px) scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+@keyframes calendarFadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Style the calendar popup container */
+input[type="date"]::-webkit-datetime-edit {
+  transition: all 0.3s ease;
+}
+
+input[type="date"]:focus::-webkit-datetime-edit {
+  transform: translateX(2px);
+}
+
+/* Calendar popup styling - applies when calendar is open */
+input[type="date"][aria-expanded="true"] {
+  box-shadow: 0 8px 24px rgba(20, 184, 166, 0.2);
+  border-color: rgb(20, 184, 166);
+}
+
+/* Smooth calendar table animations */
+::-webkit-calendar-picker-indicator {
+  animation: iconBounce 0.5s ease;
+}
+
+@keyframes iconBounce {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}

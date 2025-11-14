@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Debug LocalStorage</title>
+    <style>
+        body {
+            font-family: monospace;
+            padding: 20px;
+            background: #1a1a1a;
+            color: #00ff00;
+        }
+        pre {
+            background: #000;
+            padding: 15px;
+            border-radius: 8px;
+            overflow-x: auto;
+        }
+        button {
+            background: #00ff00;
+            color: #000;
+            border: none;
+            padding: 10px 20px;
+            margin: 10px 5px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        button:hover {
+            background: #00cc00;
+        }
+        .section {
+            margin: 20px 0;
+            border: 2px solid #00ff00;
+            padding: 15px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🔍 LocalStorage Debug Tool</h1>
+    
+    <div class="section">
+        <h2>Fee Payments Storage</h2>
+        <button onclick="showFeePayments()">Show feePayments</button>
+        <button onclick="clearFeePayments()">Clear feePayments</button>
+        <pre id="feePayments">Click "Show feePayments" to view</pre>
+    </div>
+
+    <div class="section">
+        <h2>Notices Storage</h2>
+        <button onclick="showNotices()">Show notices</button>
+        <button onclick="clearNotices()">Clear notices</button>
+        <pre id="notices">Click "Show notices" to view</pre>
+    </div>
+
+    <div class="section">
+        <h2>Current User</h2>
+        <button onclick="showUser()">Show user</button>
+        <pre id="user">Click "Show user" to view</pre>
+    </div>
+
+    <div class="section">
+        <h2>Add Test Fee Payment</h2>
+        <button onclick="addTestFee()">Add Test Fee for BCA Sem 5</button>
+        <pre id="testResult"></pre>
+    </div>
+
+    <script>
+        function showFeePayments() {
+            const data = localStorage.getItem('feePayments')
+            const parsed = data ? JSON.parse(data) : []
+            document.getElementById('feePayments').textContent = JSON.stringify(parsed, null, 2)
+            console.log('feePayments:', parsed)
+        }
+
+        function showNotices() {
+            const data = localStorage.getItem('notices')
+            const parsed = data ? JSON.parse(data) : []
+            document.getElementById('notices').textContent = JSON.stringify(parsed, null, 2)
+            console.log('notices:', parsed)
+        }
+
+        function showUser() {
+            const data = localStorage.getItem('user')
+            const parsed = data ? JSON.parse(data) : null
+            document.getElementById('user').textContent = JSON.stringify(parsed, null, 2)
+            console.log('user:', parsed)
+        }
+
+        function clearFeePayments() {
+            if (confirm('Clear all fee payments?')) {
+                localStorage.removeItem('feePayments')
+                document.getElementById('feePayments').textContent = 'Cleared!'
+                setTimeout(showFeePayments, 1000)
+            }
+        }
+
+        function clearNotices() {
+            if (confirm('Clear all notices?')) {
+                localStorage.removeItem('notices')
+                document.getElementById('notices').textContent = 'Cleared!'
+                setTimeout(showNotices, 1000)
+            }
+        }
+
+        function addTestFee() {
+            const testFee = {
+                title: "💰 Test Semester Fee Payment - BCA",
+                content: "This is a test fee payment for BCA Semester 5 students.",
+                category: "academic",
+                priority: "high",
+                created_by: "Admin User",
+                created_at: new Date().toISOString(),
+                status: "pending",
+                targetDepartment: "BCA",
+                targetSemester: "5",
+                feeDetails: {
+                    department: "BCA",
+                    semester: "5",
+                    feeType: "semester",
+                    amount: "18000",
+                    lastDateNormal: "2025-12-15",
+                    lastDateFine: "2025-12-20",
+                    fineAmount: "500",
+                    lastDateSuperFine: "2025-12-25",
+                    superFineAmount: "1000",
+                    targetDepartment: "BCA",
+                    targetSemester: "5",
+                    feeTypeName: "Semester 5 Fee"
+                }
+            }
+
+            const existing = JSON.parse(localStorage.getItem('feePayments') || '[]')
+            localStorage.setItem('feePayments', JSON.stringify([testFee, ...existing]))
+            
+            document.getElementById('testResult').textContent = '✅ Test fee added! Refresh the payment page to see it.'
+            console.log('Added test fee:', testFee)
+        }
+
+        // Auto-load on page load
+        window.onload = function() {
+            showFeePayments()
+            showNotices()
+            showUser()
+        }
+    </script>
+</body>
+</html>
