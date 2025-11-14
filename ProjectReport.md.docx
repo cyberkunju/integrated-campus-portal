@@ -1,0 +1,458 @@
+  <!-- /\* Font Definitions \*/ @font-face {font-family:Wingdings; panose-1:5 0 0 0 0 0 0 0 0 0;} @font-face {font-family:"Cambria Math"; panose-1:2 4 5 3 5 4 6 3 2 4;} @font-face {font-family:Aptos;} /\* Style Definitions \*/ p.MsoNormal, li.MsoNormal, div.MsoNormal {margin:0in; text-align:justify; line-height:150%; font-size:12.0pt; font-family:"Times New Roman",serif;} p.MsoNormalCxSpFirst, li.MsoNormalCxSpFirst, div.MsoNormalCxSpFirst {margin:0in; text-align:justify; line-height:150%; font-size:12.0pt; font-family:"Times New Roman",serif;} p.MsoNormalCxSpMiddle, li.MsoNormalCxSpMiddle, div.MsoNormalCxSpMiddle {margin:0in; text-align:justify; line-height:150%; font-size:12.0pt; font-family:"Times New Roman",serif;} p.MsoNormalCxSpLast, li.MsoNormalCxSpLast, div.MsoNormalCxSpLast {margin:0in; text-align:justify; line-height:150%; font-size:12.0pt; font-family:"Times New Roman",serif;} h1 {mso-style-link:"Heading 1 Char"; margin-top:0in; margin-right:0in; margin-bottom:12.0pt; margin-left:0in; text-align:center; line-height:150%; font-size:20.0pt; font-family:"Times New Roman",serif; font-weight:bold;} h1.CxSpFirst {mso-style-link:"Heading 1 Char"; margin:0in; text-align:center; line-height:150%; font-size:20.0pt; font-family:"Times New Roman",serif; font-weight:bold;} h1.CxSpMiddle {mso-style-link:"Heading 1 Char"; margin:0in; text-align:center; line-height:150%; font-size:20.0pt; font-family:"Times New Roman",serif; font-weight:bold;} h1.CxSpLast {mso-style-link:"Heading 1 Char"; margin-top:0in; margin-right:0in; margin-bottom:12.0pt; margin-left:0in; text-align:center; line-height:150%; font-size:20.0pt; font-family:"Times New Roman",serif; font-weight:bold;} h2 {mso-style-link:"Heading 2 Char"; margin-top:12.0pt; margin-right:0in; margin-bottom:6.0pt; margin-left:0in; line-height:150%; font-size:12.0pt; font-family:"Times New Roman",serif; font-weight:bold;} h2.CxSpFirst {mso-style-link:"Heading 2 Char"; margin-top:12.0pt; margin-right:0in; margin-bottom:0in; margin-left:0in; line-height:150%; font-size:12.0pt; font-family:"Times New Roman",serif; font-weight:bold;} h2.CxSpMiddle {mso-style-link:"Heading 2 Char"; margin:0in; line-height:150%; font-size:12.0pt; font-family:"Times New Roman",serif; font-weight:bold;} h2.CxSpLast {mso-style-link:"Heading 2 Char"; margin-top:0in; margin-right:0in; margin-bottom:6.0pt; margin-left:0in; line-height:150%; font-size:12.0pt; font-family:"Times New Roman",serif; font-weight:bold;} h3 {mso-style-link:"Heading 3 Char"; margin-top:6.0pt; margin-right:0in; margin-bottom:3.0pt; margin-left:0in; text-indent:.2in; line-height:150%; font-size:12.0pt; font-family:"Times New Roman",serif; font-weight:bold;} h3.CxSpFirst {mso-style-link:"Heading 3 Char"; margin-top:6.0pt; margin-right:0in; margin-bottom:0in; margin-left:0in; text-indent:.2in; line-height:150%; font-size:12.0pt; font-family:"Times New Roman",serif; font-weight:bold;} h3.CxSpMiddle {mso-style-link:"Heading 3 Char"; margin:0in; text-indent:.2in; line-height:150%; font-size:12.0pt; font-family:"Times New Roman",serif; font-weight:bold;} h3.CxSpLast {mso-style-link:"Heading 3 Char"; margin-top:0in; margin-right:0in; margin-bottom:3.0pt; margin-left:0in; text-indent:.2in; line-height:150%; font-size:12.0pt; font-family:"Times New Roman",serif; font-weight:bold;} h4 {mso-style-link:"Heading 4 Char"; margin-top:6.0pt; margin-right:0in; margin-bottom:3.0pt; margin-left:0in; text-indent:.4in; line-height:150%; page-break-after:avoid; font-size:12.0pt; font-family:"Times New Roman",serif; color:black; font-weight:bold;} h4.CxSpFirst {mso-style-link:"Heading 4 Char"; margin-top:6.0pt; margin-right:0in; margin-bottom:0in; margin-left:0in; text-indent:.4in; line-height:150%; page-break-after:avoid; font-size:12.0pt; font-family:"Times New Roman",serif; color:black; font-weight:bold;} h4.CxSpMiddle {mso-style-link:"Heading 4 Char"; margin:0in; text-indent:.4in; line-height:150%; page-break-after:avoid; font-size:12.0pt; font-family:"Times New Roman",serif; color:black; font-weight:bold;} h4.CxSpLast {mso-style-link:"Heading 4 Char"; margin-top:0in; margin-right:0in; margin-bottom:3.0pt; margin-left:0in; text-indent:.4in; line-height:150%; page-break-after:avoid; font-size:12.0pt; font-family:"Times New Roman",serif; color:black; font-weight:bold;} p.MsoToc1, li.MsoToc1, div.MsoToc1 {margin-top:0in; margin-right:0in; margin-bottom:5.0pt; margin-left:0in; text-align:justify; line-height:150%; font-size:12.0pt; font-family:"Times New Roman",serif;} p.MsoToc1CxSpFirst, li.MsoToc1CxSpFirst, div.MsoToc1CxSpFirst {margin:0in; text-align:justify; line-height:150%; font-size:12.0pt; font-family:"Times New Roman",serif;} p.MsoToc1CxSpMiddle, li.MsoToc1CxSpMiddle, div.MsoToc1CxSpMiddle {margin:0in; text-align:justify; line-height:150%; font-size:12.0pt; font-family:"Times New Roman",serif;} p.MsoToc1CxSpLast, li.MsoToc1CxSpLast, div.MsoToc1CxSpLast {margin-top:0in; margin-right:0in; margin-bottom:5.0pt; margin-left:0in; text-align:justify; line-height:150%; font-size:12.0pt; font-family:"Times New Roman",serif;} p.MsoToc2, li.MsoToc2, div.MsoToc2 {margin-top:0in; margin-right:0in; margin-bottom:5.0pt; margin-left:14.0pt; text-align:justify; line-height:150%; font-size:12.0pt; font-family:"Times New Roman",serif;} p.MsoToc2CxSpFirst, li.MsoToc2CxSpFirst, div.MsoToc2CxSpFirst {margin-top:0in; margin-right:0in; margin-bottom:0in; margin-left:14.0pt; text-align:justify; line-height:150%; font-size:12.0pt; font-family:"Times New Roman",serif;} p.MsoToc2CxSpMiddle, li.MsoToc2CxSpMiddle, div.MsoToc2CxSpMiddle {margin-top:0in; margin-right:0in; margin-bottom:0in; margin-left:14.0pt; text-align:justify; line-height:150%; font-size:12.0pt; font-family:"Times New Roman",serif;} p.MsoToc2CxSpLast, li.MsoToc2CxSpLast, div.MsoToc2CxSpLast {margin-top:0in; margin-right:0in; margin-bottom:5.0pt; margin-left:14.0pt; text-align:justify; line-height:150%; font-size:12.0pt; font-family:"Times New Roman",serif;} p.MsoToc3, li.MsoToc3, div.MsoToc3 {margin-top:0in; margin-right:0in; margin-bottom:5.0pt; margin-left:28.0pt; text-align:justify; line-height:150%; font-size:12.0pt; font-family:"Times New Roman",serif;} p.MsoToc3CxSpFirst, li.MsoToc3CxSpFirst, div.MsoToc3CxSpFirst {margin-top:0in; margin-right:0in; margin-bottom:0in; margin-left:28.0pt; text-align:justify; line-height:150%; font-size:12.0pt; font-family:"Times New Roman",serif;} p.MsoToc3CxSpMiddle, li.MsoToc3CxSpMiddle, div.MsoToc3CxSpMiddle {margin-top:0in; margin-right:0in; margin-bottom:0in; margin-left:28.0pt; text-align:justify; line-height:150%; font-size:12.0pt; font-family:"Times New Roman",serif;} p.MsoToc3CxSpLast, li.MsoToc3CxSpLast, div.MsoToc3CxSpLast {margin-top:0in; margin-right:0in; margin-bottom:5.0pt; margin-left:28.0pt; text-align:justify; line-height:150%; font-size:12.0pt; font-family:"Times New Roman",serif;} p.MsoHeader, li.MsoHeader, div.MsoHeader {mso-style-link:"Header Char"; margin:0in; text-align:justify; font-size:12.0pt; font-family:"Times New Roman",serif;} p.MsoHeaderCxSpFirst, li.MsoHeaderCxSpFirst, div.MsoHeaderCxSpFirst {mso-style-link:"Header Char"; margin:0in; text-align:justify; font-size:12.0pt; font-family:"Times New Roman",serif;} p.MsoHeaderCxSpMiddle, li.MsoHeaderCxSpMiddle, div.MsoHeaderCxSpMiddle {mso-style-link:"Header Char"; margin:0in; text-align:justify; font-size:12.0pt; font-family:"Times New Roman",serif;} p.MsoHeaderCxSpLast, li.MsoHeaderCxSpLast, div.MsoHeaderCxSpLast {mso-style-link:"Header Char"; margin:0in; text-align:justify; font-size:12.0pt; font-family:"Times New Roman",serif;} p.MsoFooter, li.MsoFooter, div.MsoFooter {mso-style-link:"Footer Char"; margin:0in; text-align:justify; font-size:12.0pt; font-family:"Times New Roman",serif;} p.MsoFooterCxSpFirst, li.MsoFooterCxSpFirst, div.MsoFooterCxSpFirst {mso-style-link:"Footer Char"; margin:0in; text-align:justify; font-size:12.0pt; font-family:"Times New Roman",serif;} p.MsoFooterCxSpMiddle, li.MsoFooterCxSpMiddle, div.MsoFooterCxSpMiddle {mso-style-link:"Footer Char"; margin:0in; text-align:justify; font-size:12.0pt; font-family:"Times New Roman",serif;} p.MsoFooterCxSpLast, li.MsoFooterCxSpLast, div.MsoFooterCxSpLast {mso-style-link:"Footer Char"; margin:0in; text-align:justify; font-size:12.0pt; font-family:"Times New Roman",serif;} a:link, span.MsoHyperlink {color:#467886; text-decoration:underline;} p.MsoTocHeading, li.MsoTocHeading, div.MsoTocHeading {margin-top:0in; margin-right:0in; margin-bottom:12.0pt; margin-left:0in; text-align:center; font-size:16.0pt; font-family:"Times New Roman",serif; font-weight:bold;} p.MsoTocHeadingCxSpFirst, li.MsoTocHeadingCxSpFirst, div.MsoTocHeadingCxSpFirst {margin:0in; text-align:center; font-size:16.0pt; font-family:"Times New Roman",serif; font-weight:bold;} p.MsoTocHeadingCxSpMiddle, li.MsoTocHeadingCxSpMiddle, div.MsoTocHeadingCxSpMiddle {margin:0in; text-align:center; font-size:16.0pt; font-family:"Times New Roman",serif; font-weight:bold;} p.MsoTocHeadingCxSpLast, li.MsoTocHeadingCxSpLast, div.MsoTocHeadingCxSpLast {margin-top:0in; margin-right:0in; margin-bottom:12.0pt; margin-left:0in; text-align:center; font-size:16.0pt; font-family:"Times New Roman",serif; font-weight:bold;} span.Heading1Char {mso-style-name:"Heading 1 Char"; mso-style-link:"Heading 1"; font-family:"Times New Roman",serif; font-weight:bold;} span.Heading2Char {mso-style-name:"Heading 2 Char"; mso-style-link:"Heading 2"; font-family:"Times New Roman",serif; font-weight:bold;} span.Heading3Char {mso-style-name:"Heading 3 Char"; mso-style-link:"Heading 3"; font-family:"Times New Roman",serif; font-weight:bold;} span.Heading4Char {mso-style-name:"Heading 4 Char"; mso-style-link:"Heading 4"; font-family:"Times New Roman",serif; color:black; font-weight:bold;} span.HeaderChar {mso-style-name:"Header Char"; mso-style-link:Header; font-family:"Times New Roman",serif;} span.FooterChar {mso-style-name:"Footer Char"; mso-style-link:Footer; font-family:"Times New Roman",serif;} .MsoChpDefault {font-size:12.0pt; font-family:"Aptos",sans-serif;} .MsoPapDefault {margin-bottom:8.0pt; line-height:115%;} /\* Page Definitions \*/ @page WordSection1 {size:595.3pt 841.9pt; margin:1.0in 1.0in 1.0in 1.5in; border:solid windowtext 1.0pt; padding:20.0pt 20.0pt 20.0pt 20.0pt;} div.WordSection1 {page:WordSection1;} @page WordSection2 {size:595.3pt 841.9pt; margin:1.0in 1.0in 1.0in 1.5in; border:solid windowtext 1.0pt; padding:20.0pt 20.0pt 20.0pt 20.0pt;} div.WordSection2 {page:WordSection2;} @page WordSection3 {size:595.3pt 841.9pt; margin:1.0in 1.0in 1.0in 1.5in; border:solid windowtext 1.0pt; padding:20.0pt 20.0pt 20.0pt 20.0pt;} div.WordSection3 {page:WordSection3;} @page WordSection4 {size:595.3pt 841.9pt; margin:1.0in 1.0in 1.0in 1.5in; border:solid windowtext 1.0pt; padding:20.0pt 20.0pt 20.0pt 20.0pt;} div.WordSection4 {page:WordSection4;} @page WordSection5 {size:595.3pt 841.9pt; margin:1.0in 1.0in 1.0in 1.5in; border:solid windowtext 1.0pt; padding:20.0pt 20.0pt 20.0pt 20.0pt;} div.WordSection5 {page:WordSection5;} @page WordSection6 {size:595.3pt 841.9pt; margin:1.0in 1.0in 1.0in 1.5in; border:solid windowtext 1.0pt; padding:20.0pt 20.0pt 20.0pt 20.0pt;} div.WordSection6 {page:WordSection6;} @page WordSection7 {size:595.3pt 841.9pt; margin:1.0in 1.0in 1.0in 1.5in; border:solid windowtext 1.0pt; padding:20.0pt 20.0pt 20.0pt 20.0pt;} div.WordSection7 {page:WordSection7;} @page WordSection8 {size:595.3pt 841.9pt; margin:1.0in 1.0in 1.0in 1.5in; border:solid windowtext 1.0pt; padding:20.0pt 20.0pt 20.0pt 20.0pt;} div.WordSection8 {page:WordSection8;} @page WordSection9 {size:595.3pt 841.9pt; margin:1.0in 1.0in 1.0in 1.5in; border:solid windowtext 1.0pt; padding:20.0pt 20.0pt 20.0pt 20.0pt;} div.WordSection9 {page:WordSection9;} @page WordSection10 {size:595.3pt 841.9pt; margin:1.0in 1.0in 1.0in 1.5in; border:solid windowtext 1.0pt; padding:20.0pt 20.0pt 20.0pt 20.0pt;} div.WordSection10 {page:WordSection10;} @page WordSection11 {size:595.3pt 841.9pt; margin:1.0in 1.0in 1.0in 1.5in; border:solid windowtext 1.0pt; padding:20.0pt 20.0pt 20.0pt 20.0pt;} div.WordSection11 {page:WordSection11;} @page WordSection12 {size:595.3pt 841.9pt; margin:1.0in 1.0in 1.0in 1.5in; border:solid windowtext 1.0pt; padding:20.0pt 20.0pt 20.0pt 20.0pt;} div.WordSection12 {page:WordSection12;} @page WordSection13 {size:595.3pt 841.9pt; margin:1.0in 1.0in 1.0in 1.5in; border:solid windowtext 1.0pt; padding:20.0pt 20.0pt 20.0pt 20.0pt;} div.WordSection13 {page:WordSection13;} @page WordSection14 {size:595.3pt 841.9pt; margin:1.0in 1.0in 1.0in 1.5in; border:solid windowtext 1.0pt; padding:20.0pt 20.0pt 20.0pt 20.0pt;} div.WordSection14 {page:WordSection14;} /\* List Definitions \*/ ol {margin-bottom:0in;} ul {margin-bottom:0in;} -->
+
+**Integrated Campus Portal**
+
+**MINI PROJECT REPORT**
+
+Submitted in partial fulfillment of the requirements
+
+for the award of the degree of
+
+**BACHELOR OF COMPUTER APPLICATIONS**
+
+![](~WRS%7b21C22372-46B0-4F97-A9D1-E6F23A44A60C%7d_files/image001.png)2023-2026
+
+Done By,
+
+**ARJUN SABU**
+
+REGISTER NO: 230000000000
+
+Under the guidance of,
+
+**Ms. GEENA KUNJU**
+
+**ST. KURIAKOSE COLLEGE OF MANAGEMENT AND SCIENCE**
+
+**KURUPPAMPADY**
+
+(Affiliated to Mahatma Gandhi University, Kottayam-686560)
+
+KURUPPAMPADY P.O, KERALA-683545
+
+  
+
+**Declaration**
+
+I, **Arjun Sabu**, hereby declare that the mini-project report entitled “**Integrated Campus Portal**”, submitted in partial fulfilment of the requirements for the award of the Degree of **Bachelor of Computer Applications**, is a record of the mini-project work carried out by us under the supervision and guidance of **Ms. Geena Kunju**, and that this dissertation has not formed the basis for the award of any degree or similar title to any candidate of this or any other University.
+
+                                                                                    **ARJUN SABU**
+
+Place:
+
+Date: …../…../…..
+
+  
+
+**ST. KURIAKOSE COLLEGE OF MANAGEMENT**
+
+**AND SCIENCE KURUPPAMPADY**
+
+(Affiliated to Mahatma Gandhi University, Kottayam-686560)
+
+![](~WRS%7b21C22372-46B0-4F97-A9D1-E6F23A44A60C%7d_files/image002.png)KURUPPAMPADY P.O, KERALA-683545
+
+**CERTIFICATE**
+
+This is to certify that the mini project work titled "**INTEGRATED CAMPUS PORTAL**” submitted to Mahatma Gandhi University, in partial fulfilment of the requirements for the award of the Degree of **BACHELOR OF COMPUTER APPLICATIONS (BCA)**, is a record of the original mini project work done by **ARJUN SABU** under the supervision and guidance. Furthermore, it is affirmed mini project work has not formed the basis for the award of any degree or similar title to any candidate of this or any other University.
+
+**Asst Prof. Geena Kunju    Asst Prof. Nisha P. Varghese    Dr. Sunny Kuriakose A**
+
+                  GUIDE                                              HOD                                               Principal              
+
+Submitted for viva-voce held on……/…../……
+
+Internal Examiner                                                                               External Examiner
+
+  
+
+**ACKNOWLEDGEMENT**
+
+I consider it a privilege to express my sincere gratitude and respect to all those who guided and inspired me in the successful completion of this mini-project work. I convey my reverential salutation to **Almighty God**, for enabling me to take up and complete the mini-project successfully.
+
+I would like to express my sincere thanks to **Dr. SUNNY KURIAKOSE A, Principal, ST. KURIAKOSE COLLEGE OF MANAGEMENT AND SCIENCE** for providing the necessary infrastructure and support to complete this mini-project work.
+
+I would like to express my sincere thanks to **Ms. NISHA P. VARGHESE, HOD, Department of Computer Applications, ST. KURIAKOSE COLLEGE OF MANAGEMENT AND SCIENCE** for her valuable advice and support which have helped me greatly in the accomplishment of the mini project.
+
+I sincerely thank my project guide **Ms. GEENA KUNJU, Department of Computer Applications ST. KURIAKOSE COLLEGE OF MANAGEMENT AND SCIENCE** for her consistent guidance and inspiration throughout the period for the completion of this mini project.
+
+I would like to thank all the teaching and non-teaching staff of **ST. KURIAKOSE COLLEGE OF MANAGEMENT AND SCIENCE** for their valuable guidance and suggestions rendered during the mini-project.
+
+Finally, I thank my parents and all my friends for their help, encouragement, and moral support given to me during this work.
+
+**ARJUN SABU**
+
+  
+
+Table of Contents
+
+[INTRODUCTION.. 1](#_Toc214053976)
+
+[1.1. Project Overview.. 2](#_Toc214053977)
+
+[1.2. Problem Statement 2](#_Toc214053978)
+
+[1.3. Project Objectives. 2](#_Toc214053979)
+
+[1.4. Scope of the Project 3](#_Toc214053980)
+
+[SYSTEM SPECIFICATIONS. 5](#_Toc214053981)
+
+[2.1. Software Specification. 6](#_Toc214053982)
+
+[2.2. Hardware Specification. 6](#_Toc214053983)
+
+[SYSTEM ANALYSIS. 8](#_Toc214053984)
+
+[3.1. Existing System.. 9](#_Toc214053985)
+
+[3.2. Proposed System.. 9](#_Toc214053986)
+
+[3.3. Feasibility Study. 10](#_Toc214053987)
+
+[SYSTEM DESIGN & ARCHITECTURE. 11](#_Toc214053988)
+
+[4.1. System Architecture. 12](#_Toc214053989)
+
+[4.2. Data Flow Diagram (DFD) 12](#_Toc214053990)
+
+[4.3. Database Design. 13](#_Toc214053991)
+
+[4.3.1. Entity-Relationship Diagram (ERD) 13](#_Toc214053992)
+
+[4.3.2. Database Schema (Table Definitions) 13](#_Toc214053993)
+
+  
+
+INTRODUCTION
+============
+
+1.1. Project Overview
+---------------------
+
+The University Portal Management System is a comprehensive, web-based application designed to replace traditional, paper-based university operations. It digitizes and streamlines key academic and administrative workflows by providing three distinct, role-based interfaces: an Admin Panel, a Teacher Panel, and a Student Panel. These modules are not isolated; they function as a single, interconnected ecosystem. Built on a foundation of PHP and JavaScript with a MySQL database, the system ensures that data—such as fee notices, assignment submissions, and grade entries—flows seamlessly and in real-time between all users, creating a centralized, efficient, and modern platform for managing all aspects of university life.
+
+1.2. Problem Statement
+----------------------
+
+The traditional university management system relies heavily on manual, paper-based, and disconnected processes. This approach is fraught with inefficiencies that create significant bottlenecks for students, faculty, and administrators.
+
+Key problems include:
+
+Time-Consuming Processes: Students must stand in long queues to pay fees and physically visit different offices for administrative tasks.
+
+Inefficient Communication: Important information, such as fee deadlines or exam schedules, is often posted on physical notice boards, leading to missed communications.
+
+Manual Academic Tracking: Teachers are burdened with collecting physical assignments, manually tracking submissions in a register, and maintaining separate, offline grade books.
+
+Data Fragmentation: There is no single source of truth. Student records, fee statuses, and academic grades are stored in separate, often incompatible, locations (e.g., paper files, multiple Excel sheets), making data retrieval and analysis extremely difficult.
+
+These legacy methods are slow, prone to human error, and lack the real-time data access required by a modern educational institution.
+
+1.3. Project Objectives
+-----------------------
+
+The primary objective of this project is to design and develop a centralized, web-based University Portal Management System that solves the inefficiencies of the traditional model.
+
+The specific objectives are:
+
+To Centralize Management: To develop a secure Admin Panel that consolidates all user management (student and teacher records) and financial operations (fee tracking) into a single, powerful control center.
+
+To Streamline Academic Workflows: To empower teachers with a dedicated panel for digitizing course management, including posting assignments, tracking submissions in real-time, and managing grades and attendance.
+
+To Enhance the Student Experience: To provide students with a single, personalized portal for all their academic needs, including a real-time dashboard, a digital assignment submission hub, an online fee payment system, and instant access to their results and a virtual ID card.
+
+To Improve Data Integrity & Communication: To create a unified system where all data flows in real-time, ensuring that a single action (e.g., a teacher posting a grade) is instantly and accurately reflected for the relevant users (e.g., the student).
+
+1.4. Scope of the Project
+-------------------------
+
+The scope of this project is to develop a fully functional web portal that handles the core academic and administrative operations of a university. The system is strictly defined by the functionalities within the following three modules:
+
+**Admin Panel Scope:**
+
+Full Create, Read, Update, and Delete (CRUD) operations for all student and teacher accounts.
+
+Complete financial management, including the ability to broadcast new fee notices to specific cohorts.
+
+Configuration of the Three-Tier Deadline System (No Fine, Fine, Super Fine) for all fees.
+
+Tracking of all pending and completed payments, with the ability to send individual and bulk reminders.
+
+Management of the university's academic structure, including adding subjects and assigning teachers to those subjects.
+
+**Teacher Panel Scope:**
+
+Viewing class rosters with multi-criteria filtering (by department, semester, batch, or name).
+
+The complete assignment lifecycle: creating new assignments, distributing them to classes, and tracking submission status in real-time.
+
+A module for entering, reviewing, and finalizing student marks for all subjects.
+
+A digital interface for taking and logging daily class attendance.
+
+**Student Panel Scope:**
+
+A personalized dashboard displaying key academic statistics (GPA, Attendance) and real-time notifications for new assignments.
+
+A secure, interactive 3D Virtual ID Card with a flippable back panel and a downloadable PDF option.
+
+A comprehensive assignment hub for viewing pending assignments (with countdowns) and submitting work via a file upload interface.
+
+An online payments page to view all pending fees (with deadline tiers) and complete transactions.
+
+A results page to view all historical and current semester marks, along with calculated SGPA and CGPA.
+
+Out of Scope: This project does not include modules for library management, class timetable generation, hostel management, transport management, or a parent/alumni portal. These are identified as potential future enhancements.
+
+  
+
+  
+
+  
+
+SYSTEM SPECIFICATIONS
+=====================
+
+2.1. Software Specification
+---------------------------
+
+The system is developed using a combination of foundational web technologies and modern frameworks to ensure a robust and dynamic application.
+
+**Presentation Layer (Client-Side):**
+
+HTML5: Used for the core structure and semantic markup of all web pages.
+
+CSS3: Used for all custom styling, layout, and responsive design.
+
+JavaScript (ES6+): Used for all client-side interactivity, DOM manipulation, and handling user events.
+
+**Business Logic Layer (Server-Side):**
+
+PHP: Serves as the primary server-side language, handling all API requests, business logic, user authentication, and secure database communication.
+
+Data Storage Layer:
+
+MySQL: A relational database management system used to store all persistent data, including user tables, academic records, fee information, and assignment details.
+
+**Key Frameworks & Libraries Used:**
+
+React.js: A JavaScript library used to build the fast, component-based, and dynamic user interface.
+
+Tailwind CSS: A utility-first CSS framework used for rapid and consistent styling.
+
+Framer Motion: A React animation library used to create smooth transitions and interactive UI effects like the 3D Virtual ID Card.
+
+**Real-time & Application Server:**
+
+Node.js: Used as a separate server to manage all real-time WebSocket connections, enabling instant updates for features like assignment notifications.
+
+2.2. Hardware Specification
+---------------------------
+
+To run the University Portal Management System effectively, the following hardware is recommended:
+
+**Server Side (Minimum Requirements):**
+
+Processor: 2.4 GHz Quad-Core CPU (e.g., Intel Xeon)
+
+RAM: 8 GB
+
+Storage: 250 GB SSD (or faster) for the database and application files.
+
+Network: A stable, high-speed internet connection.
+
+**Client Side (Recommended):**
+
+Device: Any modern desktop, laptop, tablet, or smartphone.
+
+RAM: 4 GB or more.
+
+Web Browser: An up-to-date version of Google Chrome, Mozilla Firefox, Safari, or Microsoft Edge.
+
+Network: A stable internet connection (Broadband or 4G/5G).
+
+  
+
+SYSTEM ANALYSIS  
+
+==================
+
+3.1. Existing System
+--------------------
+
+The existing system for university management is characterized by its reliance on traditional, manual, and disconnected processes. This legacy approach is inefficient and creates significant operational challenges for administrators, faculty, and students alike.
+
+Process Bottlenecks: Key workflows are physical and time-consuming. Students are required to stand in long queues to pay fees at an administrative office. Assignment submission is a physical process, with teachers collecting printed papers, which is logistically difficult to manage.
+
+Ineffective Communication: The primary method for disseminating information is the physical notice board. This makes it easy for students to miss critical announcements regarding fee deadlines, exam schedules, or academic events.
+
+Data Fragmentation and Redundancy: There is no single source of truth. Student records, financial statuses, and academic grades are often maintained in separate paper registers, filing cabinets, or disparate Excel spreadsheets. This fragmentation makes data retrieval difficult and leads to human error, inconsistencies, and a lack of real-time reporting.
+
+Manual Academic Tracking: Teachers are burdened with significant administrative overhead. They must manually track assignment submissions in a physical register, maintain separate grade books, and manually calculate attendance percentages from a paper log. This diverts valuable time that could be spent on teaching.
+
+3.2. Proposed System
+--------------------
+
+The proposed University Portal Management System is a centralized, web-based application designed to solve the core problems of the existing system. It digitizes the entire academic and administrative workflow into a single, cohesive ecosystem.
+
+Centralized Digital Platform: The system replaces physical paperwork and queues with a dynamic web portal. Students can pay fees online, submit assignments via file upload, and check results from any device, eliminating the need to be physically present on campus for these tasks.
+
+Role-Based Access: The system is built on three interconnected modules (Admin, Teacher, and Student). Each user role has a secure, tailored interface, ensuring they only access the data and tools necessary for their functions.
+
+Real-Time Data and Communication: The system functions as a single source of truth. When an admin sends a fee notice or a teacher posts an assignment, it appears instantly on the student's dashboard. This ensures reliable, immediate communication and eliminates information silos.
+
+Automation of Administrative Tasks: The portal automates the most burdensome tasks. The system automatically calculates fines based on the 3-tier deadline, tracks assignment submission status in real-time, and instantly calculates SGPA/CGPA as marks are entered. This frees administrators and teachers to focus on their primary responsibilities.
+
+3.3. Feasibility Study
+----------------------
+
+A feasibility study was conducted to analyze the viability of the proposed system.
+
+Technical Feasibility: The project is technically feasible. The chosen technology stack—PHP and Node.js for the dual backend, MySQL for the database, and JavaScript (React) for the frontend—are all mature, well-documented, and robust technologies. They are fully capable of handling the required functionalities, including database operations, user authentication (JWTs), file uploads, and real-time (WebSocket) communication.
+
+Operational Feasibility: The proposed system is highly operationally feasible. It is designed to be intuitive and directly maps to the existing workflows it replaces.
+
+Admins: Get a powerful dashboard that simplifies their existing tasks of user and fee management.
+
+Teachers: Receive tools that drastically reduce their manual administrative workload (grading, attendance), allowing them to adopt the system with minimal friction.
+
+Students: Are provided with a single, user-friendly "digital campus" that is more convenient and efficient than the existing manual processes.
+
+Economic Feasibility: The project is economically feasible. While there is an initial one-time development cost, the long-term return on investment is significant. The system will drastically reduce the administrative overhead, cut down on costs associated with paper and printing, and eliminate the "hidden" costs of human error in financial and academic record-keeping. The automation of tasks will lead to a direct increase in staff productivity and operational efficiency.
+
+  
+
+SYSTEM DESIGN & ARCHITECTURE
+============================
+
+  
+
+  
+
+4.1. System Architecture
+------------------------
+
+The system is designed using a modern 3-tier architecture, separating the Presentation (Client), Logic (Server), and Data (Database) layers. A key feature of this project's architecture is a dual-backend system, which strategically separates the traditional data request/response logic from real-time communication.
+
+Presentation Layer (Client): A dynamic, single-page application (SPA) built in React.js. This layer runs entirely in the user's browser, managing the UI, state, and all user interactions.
+
+Logic Layer 1 (API Server): A robust PHP server acts as the primary API backend. It is responsible for handling all business logic, processing data, managing file uploads, and executing all secure Create, Read, Update, and Delete (CRUD) operations with the database. It also handles user authentication by issuing and validating stateless JWTs (JSON Web Tokens).
+
+Logic Layer 2 (Real-time Server): A separate Node.js server. Its primary role is to serve the React application and manage all persistent WebSocket connections. This server is responsible for pushing "instant" updates to the client, such as an assignment status changing to "Submitted" for a teacher the moment a student uploads it.
+
+Data Layer (Database): A MySQL relational database serves as the single source of truth, storing all persistent data for users, academics, and finances.
+
+\[[#comment](app://obsidian.md/index.html#comment): Add High-Level System Architecture Diagram visual here.\]
+
+This diagram will show the Client (React App) communicating with the PHP API Server for "API Requests" and the Node.js Server for "Real-time WebSocket Connection." It will also show the PHP API Server querying the MySQL Database and sending a "Trigger Update" to the Node.js Server.
+
+4.2. Data Flow Diagram (DFD)
+----------------------------
+
+A Data Flow Diagram (DFD) is used to illustrate how data moves through the system from an external entity to a process and into a data store.
+
+The Level 0 Context Diagram below defines the boundary of the entire system. It shows the portal as a single, central process and illustrates the primary data inputs and outputs for its three external entities: Admin, Teacher, and Student.
+
+\[[#comment](app://obsidian.md/index.html#comment): Add DFD Level 0 (Context Diagram) visual here.\]
+
+This DFD will show a single central circle labeled "University Portal System." It will be connected via data-flow arrows to three external rectangles (entities): Admin, Teacher, and Student, showing the high-level inputs and outputs for each.
+
+4.3. Database Design
+--------------------
+
+The data storage layer is implemented using a MySQL relational database. The schema is designed following normalization principles to reduce data redundancy, ensure data integrity, and provide a scalable foundation for the application.
+
+### 4.3.1. Entity-Relationship Diagram (ERD)
+
+The Entity-Relationship Diagram (ERD) is the master blueprint for the database. It visually represents all database tables (entities) and the logical relationships (one-to-one, one-to-many, many-to-many) between them.
+
+The central entity is the users table, which holds all profiles and is differentiated by a role column. This table has multiple relationships:
+
+A user (with role='admin') creates fee\_payments for a user (with role='student').
+
+A user (with role='staff') is linked to a subject via the subject\_assignments table.
+
+A user (with role='staff') creates assignments.
+
+An assignment generates multiple assignment\_submissions, each linked to a user (with role='student').
+
+marks and attendance are also logged against a user (with role='student').
+
+A user (with role='admin') creates payment\_receipts for a user (with role='student').
+
+\[[#comment](app://obsidian.md/index.html#comment): Add Entity-Relationship Diagram (ERD) visual here.\]
+
+This diagram will visually connect all 11 tables (users, subjects, subject\_assignments, assignments, assignment\_submissions, marks, attendance, fee\_payments, payment\_receipts, notices, sessions) using crow's foot notation to illustrate their primary and foreign key relationships.
+
+### 4.3.2. Database Schema (Table Definitions)
+
+The following sections define the specific fields, data types, and constraints for all 11 tables in the database schema.
+
+#### 4.3.2.1. users (User Profiles Table)
+
+This is the central table, storing the profiles for all students, teachers (staff), and administrators in a unified structure. A role column differentiates their permissions and access.
+
+\[[#comment](app://obsidian.md/index.html#comment): Add the table definition for users here, as specified in database schema 1.md.\]
+
+#### 4.3.2.2. subjects (Academic Subjects Table)
+
+This table stores the complete list of all academic subjects offered by the university, including their code, name, department, semester, and credit value.
+
+\[[#comment](app://obsidian.md/index.html#comment): Add the table definition for subjects here, as specified in database schema 1.md.\]
+
+#### 4.3.2.3. subject\_assignments (Teacher-to-Subject Mapping Table)
+
+This is a junction table that maps a teacher (from the users table) to a subject (from the subjects table). This is critical for knowing which teacher teaches which course.
+
+\[[#comment](app://obsidian.md/index.html#comment): Add the table definition for subject\_assignments here, as specified in database schema 1.md.\]
+
+#### 4.3.2.4. assignments (Assignment Details Table)
+
+This table stores the metadata for every assignment created by a teacher, including the topic, description, due date, and target department/semester.
+
+\[[#comment](app://obsidian.md/index.html#comment): Add the table definition for assignments here, as specified in database schema 1.md.\]
+
+#### 4.3.2.5. assignment\_submissions (Student Submission Tracking Table)
+
+This table tracks the status of every assignment for every student. It links an assignment\_id to a student\_id and stores the status (e.g., 'not\_submitted', 'submitted'), the path to the uploaded file, and the submission timestamp.
+
+\[[#comment](app://obsidian.md/index.html#comment): Add the table definition for assignment\_submissions here, as specified in database schema 1.md.\]
+
+#### 4.3.2.6. marks (Student Grades Table)
+
+This table stores the official academic grades (internal, theory, practical) for each student in each subject. This data is used to calculate SGPA and CGPA.
+
+\[[#comment](app://obsidian.md/index.html#comment): Add the table definition for marks here, as specified in database schema 1.md.\]
+
+#### 4.3.2.7. attendance (Daily Attendance Log)
+
+This table logs the daily attendance record (present, absent, late) for each student in each class session, as marked by a teacher.
+
+\[[#comment](app://obsidian.md/index.html#comment): Add the table definition for attendance here, as specified in database schema 1.md.\]
+
+#### 4.3.2.8. fee\_payments (Fee Tracking Table)
+
+This table stores every single fee notice sent to a student. It includes the fee amount, the three-tier deadline dates, the associated fine amounts, and the current payment status ('pending' or 'paid').
+
+\[[#comment](app://obsidian.md/index.html#comment): Add the table definition for fee\_payments here, as specified in database schema 1.md.\]
+
+#### 4.3.2.9. payment\_receipts (Payment History Table)
+
+This table stores a record for every successful transaction, linking it to the original fee\_payments entry and storing the transaction ID and receipt number.
+
+\[[#comment](app://obsidian.md/index.html#comment): Add the table definition for payment\_receipts here, as specified in database schema 1.md.\]
+
+#### 4.3.2.10. notices (Announcements Table)
+
+This table stores the announcements (title, content, category) posted by the admin to the general Notice Board for all users.
+
+\[[#comment](app://obsidian.md/index.html#comment): Add the table definition for notices here, as specified in database schema 1.md.\]
+
+#### 4.3.2.11. sessions (User Login Session Table)
+
+This table is used to manage user authentication by storing active login sessions and their corresponding JWTs.
+
+\[[#comment](app://obsidian.md/index.html#comment): Add the table definition for sessions here, as specified in database schema 1.md.\]
+
+.

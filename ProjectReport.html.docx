@@ -1,0 +1,1860 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Aptos;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	text-align:justify;
+	line-height:150%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoNormalCxSpFirst, li.MsoNormalCxSpFirst, div.MsoNormalCxSpFirst
+	{margin:0in;
+	text-align:justify;
+	line-height:150%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoNormalCxSpMiddle, li.MsoNormalCxSpMiddle, div.MsoNormalCxSpMiddle
+	{margin:0in;
+	text-align:justify;
+	line-height:150%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoNormalCxSpLast, li.MsoNormalCxSpLast, div.MsoNormalCxSpLast
+	{margin:0in;
+	text-align:justify;
+	line-height:150%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+h1
+	{mso-style-link:"Heading 1 Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	text-align:center;
+	line-height:150%;
+	font-size:20.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+h1.CxSpFirst
+	{mso-style-link:"Heading 1 Char";
+	margin:0in;
+	text-align:center;
+	line-height:150%;
+	font-size:20.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+h1.CxSpMiddle
+	{mso-style-link:"Heading 1 Char";
+	margin:0in;
+	text-align:center;
+	line-height:150%;
+	font-size:20.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+h1.CxSpLast
+	{mso-style-link:"Heading 1 Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	text-align:center;
+	line-height:150%;
+	font-size:20.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+h2
+	{mso-style-link:"Heading 2 Char";
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	line-height:150%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+h2.CxSpFirst
+	{mso-style-link:"Heading 2 Char";
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	line-height:150%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+h2.CxSpMiddle
+	{mso-style-link:"Heading 2 Char";
+	margin:0in;
+	line-height:150%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+h2.CxSpLast
+	{mso-style-link:"Heading 2 Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:6.0pt;
+	margin-left:0in;
+	line-height:150%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+h3
+	{mso-style-link:"Heading 3 Char";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	text-indent:.2in;
+	line-height:150%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+h3.CxSpFirst
+	{mso-style-link:"Heading 3 Char";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	text-indent:.2in;
+	line-height:150%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+h3.CxSpMiddle
+	{mso-style-link:"Heading 3 Char";
+	margin:0in;
+	text-indent:.2in;
+	line-height:150%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+h3.CxSpLast
+	{mso-style-link:"Heading 3 Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	text-indent:.2in;
+	line-height:150%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+h4
+	{mso-style-link:"Heading 4 Char";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	text-indent:.4in;
+	line-height:150%;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	color:black;
+	font-weight:bold;}
+h4.CxSpFirst
+	{mso-style-link:"Heading 4 Char";
+	margin-top:6.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	text-indent:.4in;
+	line-height:150%;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	color:black;
+	font-weight:bold;}
+h4.CxSpMiddle
+	{mso-style-link:"Heading 4 Char";
+	margin:0in;
+	text-indent:.4in;
+	line-height:150%;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	color:black;
+	font-weight:bold;}
+h4.CxSpLast
+	{mso-style-link:"Heading 4 Char";
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:3.0pt;
+	margin-left:0in;
+	text-indent:.4in;
+	line-height:150%;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	color:black;
+	font-weight:bold;}
+p.MsoToc1, li.MsoToc1, div.MsoToc1
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:0in;
+	text-align:justify;
+	line-height:150%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoToc1CxSpFirst, li.MsoToc1CxSpFirst, div.MsoToc1CxSpFirst
+	{margin:0in;
+	text-align:justify;
+	line-height:150%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoToc1CxSpMiddle, li.MsoToc1CxSpMiddle, div.MsoToc1CxSpMiddle
+	{margin:0in;
+	text-align:justify;
+	line-height:150%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoToc1CxSpLast, li.MsoToc1CxSpLast, div.MsoToc1CxSpLast
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:0in;
+	text-align:justify;
+	line-height:150%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoToc2, li.MsoToc2, div.MsoToc2
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:14.0pt;
+	text-align:justify;
+	line-height:150%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoToc2CxSpFirst, li.MsoToc2CxSpFirst, div.MsoToc2CxSpFirst
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:14.0pt;
+	text-align:justify;
+	line-height:150%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoToc2CxSpMiddle, li.MsoToc2CxSpMiddle, div.MsoToc2CxSpMiddle
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:14.0pt;
+	text-align:justify;
+	line-height:150%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoToc2CxSpLast, li.MsoToc2CxSpLast, div.MsoToc2CxSpLast
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:14.0pt;
+	text-align:justify;
+	line-height:150%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoToc3, li.MsoToc3, div.MsoToc3
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:28.0pt;
+	text-align:justify;
+	line-height:150%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoToc3CxSpFirst, li.MsoToc3CxSpFirst, div.MsoToc3CxSpFirst
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:28.0pt;
+	text-align:justify;
+	line-height:150%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoToc3CxSpMiddle, li.MsoToc3CxSpMiddle, div.MsoToc3CxSpMiddle
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:28.0pt;
+	text-align:justify;
+	line-height:150%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoToc3CxSpLast, li.MsoToc3CxSpLast, div.MsoToc3CxSpLast
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:5.0pt;
+	margin-left:28.0pt;
+	text-align:justify;
+	line-height:150%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-link:"Header Char";
+	margin:0in;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoHeaderCxSpFirst, li.MsoHeaderCxSpFirst, div.MsoHeaderCxSpFirst
+	{mso-style-link:"Header Char";
+	margin:0in;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoHeaderCxSpMiddle, li.MsoHeaderCxSpMiddle, div.MsoHeaderCxSpMiddle
+	{mso-style-link:"Header Char";
+	margin:0in;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoHeaderCxSpLast, li.MsoHeaderCxSpLast, div.MsoHeaderCxSpLast
+	{mso-style-link:"Header Char";
+	margin:0in;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-link:"Footer Char";
+	margin:0in;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoFooterCxSpFirst, li.MsoFooterCxSpFirst, div.MsoFooterCxSpFirst
+	{mso-style-link:"Footer Char";
+	margin:0in;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoFooterCxSpMiddle, li.MsoFooterCxSpMiddle, div.MsoFooterCxSpMiddle
+	{mso-style-link:"Footer Char";
+	margin:0in;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.MsoFooterCxSpLast, li.MsoFooterCxSpLast, div.MsoFooterCxSpLast
+	{mso-style-link:"Footer Char";
+	margin:0in;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+a:link, span.MsoHyperlink
+	{color:#467886;
+	text-decoration:underline;}
+p.MsoTocHeading, li.MsoTocHeading, div.MsoTocHeading
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	text-align:center;
+	font-size:16.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.MsoTocHeadingCxSpFirst, li.MsoTocHeadingCxSpFirst, div.MsoTocHeadingCxSpFirst
+	{margin:0in;
+	text-align:center;
+	font-size:16.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.MsoTocHeadingCxSpMiddle, li.MsoTocHeadingCxSpMiddle, div.MsoTocHeadingCxSpMiddle
+	{margin:0in;
+	text-align:center;
+	font-size:16.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.MsoTocHeadingCxSpLast, li.MsoTocHeadingCxSpLast, div.MsoTocHeadingCxSpLast
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:12.0pt;
+	margin-left:0in;
+	text-align:center;
+	font-size:16.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.Heading1Char
+	{mso-style-name:"Heading 1 Char";
+	mso-style-link:"Heading 1";
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.Heading2Char
+	{mso-style-name:"Heading 2 Char";
+	mso-style-link:"Heading 2";
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.Heading3Char
+	{mso-style-name:"Heading 3 Char";
+	mso-style-link:"Heading 3";
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+span.Heading4Char
+	{mso-style-name:"Heading 4 Char";
+	mso-style-link:"Heading 4";
+	font-family:"Times New Roman",serif;
+	color:black;
+	font-weight:bold;}
+span.HeaderChar
+	{mso-style-name:"Header Char";
+	mso-style-link:Header;
+	font-family:"Times New Roman",serif;}
+span.FooterChar
+	{mso-style-name:"Footer Char";
+	mso-style-link:Footer;
+	font-family:"Times New Roman",serif;}
+.MsoChpDefault
+	{font-size:12.0pt;
+	font-family:"Aptos",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:115%;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:1.0in 1.0in 1.0in 1.5in;
+	border:solid windowtext 1.0pt;
+	padding:20.0pt 20.0pt 20.0pt 20.0pt;}
+div.WordSection1
+	{page:WordSection1;}
+@page WordSection2
+	{size:595.3pt 841.9pt;
+	margin:1.0in 1.0in 1.0in 1.5in;
+	border:solid windowtext 1.0pt;
+	padding:20.0pt 20.0pt 20.0pt 20.0pt;}
+div.WordSection2
+	{page:WordSection2;}
+@page WordSection3
+	{size:595.3pt 841.9pt;
+	margin:1.0in 1.0in 1.0in 1.5in;
+	border:solid windowtext 1.0pt;
+	padding:20.0pt 20.0pt 20.0pt 20.0pt;}
+div.WordSection3
+	{page:WordSection3;}
+@page WordSection4
+	{size:595.3pt 841.9pt;
+	margin:1.0in 1.0in 1.0in 1.5in;
+	border:solid windowtext 1.0pt;
+	padding:20.0pt 20.0pt 20.0pt 20.0pt;}
+div.WordSection4
+	{page:WordSection4;}
+@page WordSection5
+	{size:595.3pt 841.9pt;
+	margin:1.0in 1.0in 1.0in 1.5in;
+	border:solid windowtext 1.0pt;
+	padding:20.0pt 20.0pt 20.0pt 20.0pt;}
+div.WordSection5
+	{page:WordSection5;}
+@page WordSection6
+	{size:595.3pt 841.9pt;
+	margin:1.0in 1.0in 1.0in 1.5in;
+	border:solid windowtext 1.0pt;
+	padding:20.0pt 20.0pt 20.0pt 20.0pt;}
+div.WordSection6
+	{page:WordSection6;}
+@page WordSection7
+	{size:595.3pt 841.9pt;
+	margin:1.0in 1.0in 1.0in 1.5in;
+	border:solid windowtext 1.0pt;
+	padding:20.0pt 20.0pt 20.0pt 20.0pt;}
+div.WordSection7
+	{page:WordSection7;}
+@page WordSection8
+	{size:595.3pt 841.9pt;
+	margin:1.0in 1.0in 1.0in 1.5in;
+	border:solid windowtext 1.0pt;
+	padding:20.0pt 20.0pt 20.0pt 20.0pt;}
+div.WordSection8
+	{page:WordSection8;}
+@page WordSection9
+	{size:595.3pt 841.9pt;
+	margin:1.0in 1.0in 1.0in 1.5in;
+	border:solid windowtext 1.0pt;
+	padding:20.0pt 20.0pt 20.0pt 20.0pt;}
+div.WordSection9
+	{page:WordSection9;}
+@page WordSection10
+	{size:595.3pt 841.9pt;
+	margin:1.0in 1.0in 1.0in 1.5in;
+	border:solid windowtext 1.0pt;
+	padding:20.0pt 20.0pt 20.0pt 20.0pt;}
+div.WordSection10
+	{page:WordSection10;}
+@page WordSection11
+	{size:595.3pt 841.9pt;
+	margin:1.0in 1.0in 1.0in 1.5in;
+	border:solid windowtext 1.0pt;
+	padding:20.0pt 20.0pt 20.0pt 20.0pt;}
+div.WordSection11
+	{page:WordSection11;}
+@page WordSection12
+	{size:595.3pt 841.9pt;
+	margin:1.0in 1.0in 1.0in 1.5in;
+	border:solid windowtext 1.0pt;
+	padding:20.0pt 20.0pt 20.0pt 20.0pt;}
+div.WordSection12
+	{page:WordSection12;}
+@page WordSection13
+	{size:595.3pt 841.9pt;
+	margin:1.0in 1.0in 1.0in 1.5in;
+	border:solid windowtext 1.0pt;
+	padding:20.0pt 20.0pt 20.0pt 20.0pt;}
+div.WordSection13
+	{page:WordSection13;}
+@page WordSection14
+	{size:595.3pt 841.9pt;
+	margin:1.0in 1.0in 1.0in 1.5in;
+	border:solid windowtext 1.0pt;
+	padding:20.0pt 20.0pt 20.0pt 20.0pt;}
+div.WordSection14
+	{page:WordSection14;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+-->
+</style>
+
+</head>
+
+<body lang=EN-IN link="#467886" vlink="#96607D" style='word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<p id=2A41BF8E-6E87-4F3B-BE46-2F3F81AEDC89 class=MsoNormalCxSpFirst
+align=center style='margin-bottom:12.0pt;text-align:center'><b><span
+lang=EN-US style='font-size:22.0pt;line-height:150%'>Integrated Campus Portal</span></b></p>
+
+<p id=5BD40994-012B-454F-88F9-FC8F3DDE30C5 class=MsoNormalCxSpMiddle><span
+lang=EN-US style='font-size:14.0pt;line-height:150%'>&nbsp;</span></p>
+
+<p id=72ADF8DF-DEAD-4B08-B079-22AE0F72635F class=MsoNormalCxSpMiddle
+align=center style='margin-bottom:12.0pt;text-align:center'><b><span
+lang=EN-US style='font-size:16.0pt;line-height:150%'>MINI PROJECT REPORT</span></b></p>
+
+<p id=EA7E7DDE-531F-4DDF-9D8E-10C50ACD3540 class=MsoNormalCxSpMiddle><span
+lang=EN-US style='font-size:14.0pt;line-height:150%'>&nbsp;</span></p>
+
+<p id=E26BBD29-E713-4049-BA0D-52C3EE9F2628 class=MsoNormalCxSpMiddle
+align=center style='margin-bottom:12.0pt;text-align:center'><span lang=EN-US>Submitted
+in partial fulfillment of the requirements</span></p>
+
+<p id=7C932164-F836-40F3-816F-BD774CA0C276 class=MsoNormalCxSpMiddle
+align=center style='margin-bottom:12.0pt;text-align:center'><span lang=EN-US>for
+the award of the degree of</span></p>
+
+<p id=3D6B25FE-476A-45B3-B51F-CA51272211E8 class=MsoNormalCxSpMiddle
+align=center style='margin-bottom:12.0pt;text-align:center'><b><span
+lang=EN-US>BACHELOR OF COMPUTER APPLICATIONS</span></b></p>
+
+<p id=A226E380-36D3-42FA-B147-0568FF54A518 class=MsoNormalCxSpMiddle
+align=center style='text-align:center'><span lang=EN-US>&nbsp;</span></p>
+
+<p id=37F5E008-DB14-4FB0-B66D-F3E17E914412 class=MsoNormalCxSpMiddle
+align=center style='text-align:center'><span style='position:absolute;
+z-index:-1895824384;left:0px;margin-left:0px;margin-top:110px;width:230px;
+height:185px'><img width=184 height=148
+src="~WRS%7b21C22372-46B0-4F97-A9D1-E6F23A44A60C%7d_files/image001.png"></span><span
+lang=EN-US>2023-2026</span></p>
+
+<p id=18F6F62C-A26B-4F33-AFB3-F77B48ADFEF8 class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=0D06172C-A8DE-4CF9-9455-779A8816BCD7 class=MsoNormalCxSpMiddle><span
+lang=EN-US>            </span></p>
+
+<p id=6C287E89-A3D2-43B2-BFED-1E5A09B6AFAC class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=A6163C9F-440A-44B1-B9BA-FB53BF280CD3 class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=0C011BF6-F081-4CDA-8204-6032D44C1503 class=MsoNormalCxSpMiddle
+align=center style='text-align:center'><b><span lang=EN-US>&nbsp;</span></b></p>
+
+<p id=74B52D41-7B36-4F96-B094-483061820C64 class=MsoNormalCxSpMiddle
+align=center style='text-align:center'><b><span lang=EN-US>&nbsp;</span></b></p>
+
+<p id=9554FEF7-9C91-445D-8588-7C2DB1C634AD class=MsoNormalCxSpMiddle
+align=center style='margin-bottom:3.0pt;text-align:center'><span lang=EN-US>Done
+By,</span></p>
+
+<p id=B4B0B553-9003-4D1A-B0F6-7D45890252F0 class=MsoNormalCxSpMiddle
+align=center style='margin-bottom:3.0pt;text-align:center'><b><span lang=EN-US>ARJUN
+SABU</span></b></p>
+
+<p id=78F7E41A-91E2-4A66-9102-45FF88C77380 class=MsoNormalCxSpMiddle
+align=center style='margin-bottom:12.0pt;text-align:center'><span lang=EN-US>REGISTER
+NO: 230000000000</span></p>
+
+<p id=1EEB42EA-1A70-400C-AA90-140AF65938A1 class=MsoNormalCxSpMiddle
+align=center style='text-align:center'><span lang=EN-US>&nbsp;</span></p>
+
+<p id=8C52E553-2034-4139-806B-3A4405E342EA class=MsoNormalCxSpMiddle
+align=center style='text-align:center'><span lang=EN-US>Under the guidance of,</span></p>
+
+<p id=62D72EDE-C42D-4E3D-9625-BA9FE1A226BD class=MsoNormalCxSpMiddle
+align=center style='text-align:center'><b><span lang=EN-US>Ms. GEENA KUNJU</span></b></p>
+
+<p id=35C9DD79-FEE6-419B-9ECA-44A2C29170B4 class=MsoNormalCxSpMiddle
+align=center style='text-align:center'><span lang=EN-US>&nbsp;</span></p>
+
+<p id=D49B4BC1-AA5A-4B0A-9CA6-30DA204CB540 class=MsoNormalCxSpMiddle
+align=center style='text-align:center'><b><span lang=EN-US style='font-size:
+14.0pt;line-height:150%'>ST. KURIAKOSE COLLEGE OF MANAGEMENT AND SCIENCE</span></b></p>
+
+<p id=D4978C5C-B65B-4FBF-A594-5526B2B569A6 class=MsoNormalCxSpMiddle
+align=center style='text-align:center'><b><span lang=EN-US style='font-size:
+14.0pt;line-height:150%'>KURUPPAMPADY</span></b></p>
+
+<p id=FBAE1D6D-4A85-418A-9414-17CAA9BD2728 class=MsoNormalCxSpMiddle
+align=center style='text-align:center'><span lang=EN-US>(Affiliated to Mahatma
+Gandhi University, Kottayam-686560)</span></p>
+
+<p id=12A615DC-AA9E-487C-968F-39FB50937A50 class=MsoNormalCxSpMiddle
+align=center style='text-align:center'><span lang=EN-US>KURUPPAMPADY P.O,
+KERALA-683545</span></p>
+
+</div>
+
+<span lang=EN-US style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman",serif'><br
+clear=all>
+</span>
+
+<div class=WordSection2>
+
+<p id=E2D33DCD-039F-4EA2-98F7-F010706AF53E class=MsoNormalCxSpMiddle
+align=center style='text-align:center'><span lang=EN-US>&nbsp;</span></p>
+
+<p id=8636066B-2B53-4B87-A9D1-CDDBFBC64387 class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=24A8AAA4-C193-44EE-B507-5E2155DF1483 class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=89A97552-0B49-460D-8560-7F1FAE1F7E7E class=MsoNormal align=center
+style='margin-bottom:8.0pt;text-align:center;line-height:115%'><b><span
+lang=EN-US style='font-size:16.0pt;line-height:115%'>Declaration</span></b></p>
+
+<p id=94B69BA0-D32D-4D69-8499-B458499ED681 class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=1528254F-00E6-4CB2-9790-E4B8C2560F8A class=MsoNormalCxSpMiddle><span
+lang=EN-US>I, </span><b><span lang=EN-US>Arjun Sabu</span></b><span lang=EN-US>,
+hereby declare that the mini-project report entitled “</span><b><span
+lang=EN-US>Integrated Campus Portal</span></b><span lang=EN-US>”, submitted in
+partial fulfilment of the requirements for the award of the Degree of </span><b><span
+lang=EN-US>Bachelor of Computer Applications</span></b><span lang=EN-US>, is a
+record of the mini-project work carried out by us under the supervision and
+guidance of </span><b><span lang=EN-US>Ms. Geena Kunju</span></b><span
+lang=EN-US>, and that this dissertation has not formed the basis for the award
+of any degree or similar title to any candidate of this or any other
+University.</span></p>
+
+<p id=DE7C983D-1277-4571-8B4D-98493E083A3E class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=512FBFD3-1F94-4A7D-832B-E56236FE3EF5 class=MsoNormalCxSpMiddle><span
+lang=EN-US>                                    </span></p>
+
+<p id=3DDCAE34-9049-4C7C-BDC6-80FCFB2E4269 class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=CDD08284-A15A-4DC4-B95B-81A05BB88752 class=MsoNormalCxSpMiddle
+align=right style='text-align:right'><span lang=EN-US>                                                                                    </span><b><span
+lang=EN-US>ARJUN SABU</span></b></p>
+
+<p id=D23D03AA-3278-41C9-BA23-140527FE6A2E class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=25970D3D-09AB-46E4-99DC-A68CBAA1A479 class=MsoNormalCxSpMiddle><span
+lang=EN-US style='font-size:8.0pt;line-height:150%'>&nbsp;</span></p>
+
+<p id=9F68AA43-21C4-4460-BEC5-79919D617287 class=MsoNormalCxSpMiddle><span
+lang=EN-US>Place:</span></p>
+
+<p id=0F99A29F-7570-47A9-90F8-654D69A3DC03 class=MsoNormalCxSpMiddle><span
+lang=EN-US>Date: …../…../…..</span></p>
+
+<p id=B3F09458-14A6-4B22-A14D-DD665E87BC8F class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=0AEF8369-D07C-4ECC-9D03-54E14C75A77B class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=7321C6FB-0429-45F5-9DDC-988D7505B535 class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=173996B0-39F0-47F4-8258-4A4D644E01CC class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<span lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<p id=5DCC5CB0-83B3-4AF5-AAC8-F156CEF1F35F class=MsoNormalCxSpMiddle
+style='margin-bottom:8.0pt;line-height:115%'><span lang=EN-US>&nbsp;</span></p>
+
+<p id=499A32A2-336E-4E0F-AA16-D8E8F4DA7C85 class=MsoNormalCxSpMiddle
+align=center style='text-align:center'><b><span lang=EN-US style='font-size:
+14.0pt;line-height:150%'>ST. KURIAKOSE COLLEGE OF MANAGEMENT</span></b></p>
+
+<p id=92F85A33-0FD7-4538-B804-D2912AF9B55D class=MsoNormalCxSpMiddle
+align=center style='text-align:center'><b><span lang=EN-US style='font-size:
+14.0pt;line-height:150%'>AND SCIENCE KURUPPAMPADY</span></b></p>
+
+<p id=531006A4-94DA-4DF3-BCCA-8E25C8C6F058 class=MsoNormalCxSpMiddle
+align=center style='text-align:center'><span lang=EN-US>(Affiliated to Mahatma
+Gandhi University, Kottayam-686560)</span></p>
+
+<p id=E77EC085-92E5-4E60-98BC-310D76609A8A class=MsoNormalCxSpMiddle
+align=center style='text-align:center'><span style='position:absolute;
+z-index:-1895823360;left:0px;margin-left:0px;margin-top:439px;width:202px;
+height:162px'><img width=162 height=130
+src="~WRS%7b21C22372-46B0-4F97-A9D1-E6F23A44A60C%7d_files/image002.png"></span><span
+lang=EN-US>KURUPPAMPADY P.O, KERALA-683545</span></p>
+
+<p id=5AE3C828-DF4A-4550-9BA9-95A0D7EC5BF7 class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=23A1B4CC-734F-42E8-9B9C-CC4A7D3F5F3A class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=644A95D2-42D7-48DF-97F2-9E01F554066B class=MsoNormalCxSpMiddle><span
+lang=EN-US style='font-size:14.0pt;line-height:150%'>&nbsp;</span></p>
+
+<p id=AE89464F-96E6-4B7D-A495-C84A3EF73042 class=MsoNormalCxSpMiddle><span
+lang=EN-US style='font-size:5.0pt;line-height:150%'>&nbsp;</span></p>
+
+<p id=E73834DB-0B4C-45E4-A2F8-2926F7B51493 class=MsoNormalCxSpMiddle><span
+lang=EN-US style='font-size:5.0pt;line-height:150%'>&nbsp;</span></p>
+
+<p id=27E47927-3D8A-45B6-9D26-BC5E5213AA35 class=MsoNormalCxSpMiddle><span
+lang=EN-US style='font-size:5.0pt;line-height:150%'>&nbsp;</span></p>
+
+<p id=CB448831-733B-4EEB-A083-E692F87AD9C5 class=MsoNormalCxSpMiddle><span
+lang=EN-US style='font-size:5.0pt;line-height:150%'>&nbsp;</span></p>
+
+<p id=454F03B4-FC89-4E79-AFEB-3B03BDC8525A class=MsoNormalCxSpMiddle><span
+lang=EN-US style='font-size:5.0pt;line-height:150%'>&nbsp;</span></p>
+
+<p id=D30E57FA-2AC5-4607-8A52-13969D98039D class=MsoNormalCxSpMiddle><span
+lang=EN-US style='font-size:5.0pt;line-height:150%'>&nbsp;</span></p>
+
+<p id=E419EB0D-42AC-4C74-AFDF-C565747ADDB0 class=MsoNormalCxSpMiddle><span
+lang=EN-US style='font-size:3.0pt;line-height:150%'>&nbsp;</span></p>
+
+<p id=A4B41C38-AAC9-4933-8993-3BB811779178 class=MsoNormalCxSpMiddle
+align=center style='text-align:center'><b><span lang=EN-US style='font-size:
+16.0pt;line-height:150%'>CERTIFICATE</span></b></p>
+
+<p id=9F7E1849-DE4E-4E16-AFEE-FF664CFBEB8B class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=CC701BB2-34D7-4D56-968F-AE6C8D844112 class=MsoNormalCxSpMiddle><span
+lang=EN-US>This is to certify that the mini project work titled &quot;</span><b><span
+lang=EN-US>INTEGRATED CAMPUS PORTAL</span></b><span lang=EN-US>” submitted to
+Mahatma Gandhi University, in partial fulfilment of the requirements for the
+award of the Degree of </span><b><span lang=EN-US>BACHELOR OF COMPUTER
+APPLICATIONS (BCA)</span></b><span lang=EN-US>, is a record of the original
+mini project work done by </span><b><span lang=EN-US>ARJUN SABU</span></b><span
+lang=EN-US> under the supervision and guidance. Furthermore, it is affirmed
+mini project work has not formed the basis for the award of any degree or
+similar title to any candidate of this or any other University.</span></p>
+
+<p id=C569EA9C-B0EE-4DEB-982F-1F262A080E0F class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=58268AAF-1FC7-455B-85B8-48F601EEF337 class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=19C5D7F7-63B3-4BF1-AF72-9252DB4BB4B2 class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=D26D3BD6-C04C-4EA9-A982-FE232A78CCC7 class=MsoNormalCxSpMiddle><b><span
+lang=EN-US>Asst Prof. Geena Kunju    Asst Prof. Nisha P. Varghese    Dr. Sunny
+Kuriakose A</span></b></p>
+
+<p id=05234343-A9FF-4E59-98EA-CAC395869FAD class=MsoNormalCxSpMiddle><span
+lang=EN-US style='font-size:10.0pt;line-height:150%'>                  GUIDE                                        
+     HOD                                               Principal               </span></p>
+
+<p id=FC6E7D11-8C09-4471-9FE9-67281136D295 class=MsoNormalCxSpMiddle><span
+lang=EN-US style='font-size:6.0pt;line-height:150%'>&nbsp;</span></p>
+
+<p id=6C815929-BBD8-45AA-A410-538148B4399B class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=2C9156BF-B7FB-460B-B862-DC3E678D925E class=MsoNormalCxSpMiddle><span
+lang=EN-US>Submitted for viva-voce held on……/…../……</span></p>
+
+<p id=6FA8EE3E-5678-4700-8BDB-8D9794D8103A class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=C8E7BE90-65A8-49F2-BB86-79885E598D99 class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=88101D69-A90C-41D3-88B4-9F61EF0D3FCB class=MsoNormalCxSpMiddle><span
+lang=EN-US>Internal Examiner                                                                               External
+Examiner</span></p>
+
+</div>
+
+<span lang=EN-US style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<div class=WordSection3>
+
+<p id=C5B6F4DD-3A2C-4F66-86E5-D39E3DF57876 class=MsoNormalCxSpMiddle
+align=center style='text-align:center'><span lang=EN-US>&nbsp;</span></p>
+
+<p id=FB0D5D8C-896B-4EE9-861F-EA047C7E3EB4 class=MsoNormalCxSpMiddle
+align=center style='text-align:center'><span lang=EN-US>&nbsp;</span></p>
+
+<p id=9B170BAA-0DA0-454B-B0EA-DF9E39A52427 class=MsoNormalCxSpMiddle
+align=center style='text-align:center'><b><span lang=EN-US>ACKNOWLEDGEMENT</span></b></p>
+
+<p id=101062DE-C5FD-4E68-A8D6-CDB482204D87 class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=B991B8C8-EAF3-4EDB-96D2-67C2438BFF35 class=MsoNormalCxSpMiddle><span
+lang=EN-US>I consider it a privilege to express my sincere gratitude and
+respect to all those who guided and inspired me in the successful completion of
+this mini-project work. I convey my reverential salutation to </span><b><span
+lang=EN-US>Almighty God</span></b><span lang=EN-US>, for enabling me to take up
+and complete the mini-project successfully.</span></p>
+
+<p id=4D397DA8-827F-4376-B09D-332F2E82EC8F class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=7A23F474-413D-4648-B685-009E93995994 class=MsoNormalCxSpMiddle><span
+lang=EN-US>I would like to express my sincere thanks to </span><b><span
+lang=EN-US>Dr. SUNNY KURIAKOSE A, Principal, ST. KURIAKOSE COLLEGE OF
+MANAGEMENT AND SCIENCE</span></b><span lang=EN-US> for providing the necessary
+infrastructure and support to complete this mini-project work.</span></p>
+
+<p id=81EBF665-2994-4AEB-9F69-A4C47C7520CD class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=E522B015-7220-4D12-9C8B-A584E0A9E3A4 class=MsoNormalCxSpMiddle><span
+lang=EN-US>I would like to express my sincere thanks to </span><b><span
+lang=EN-US>Ms. NISHA P. VARGHESE, HOD, Department of Computer Applications, ST.
+KURIAKOSE COLLEGE OF MANAGEMENT AND SCIENCE</span></b><span lang=EN-US> for her
+valuable advice and support which have helped me greatly in the accomplishment
+of the mini project.</span></p>
+
+<p id=63084DBD-7D55-462E-B8BE-294E8E616234 class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=9807132A-AB4F-4813-A5AB-AE042C39964C class=MsoNormalCxSpMiddle><span
+lang=EN-US>I sincerely thank my project guide </span><b><span lang=EN-US>Ms.
+GEENA KUNJU, Department of Computer Applications ST. KURIAKOSE COLLEGE OF
+MANAGEMENT AND SCIENCE</span></b><span lang=EN-US> for her consistent guidance
+and inspiration throughout the period for the completion of this mini project.</span></p>
+
+<p id=93BB24C8-7AD1-4A60-A652-7FF05BDE73F2 class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=97514765-CE6C-4BAA-81A0-E084DEE8806E class=MsoNormalCxSpMiddle><span
+lang=EN-US>I would like to thank all the teaching and non-teaching staff of </span><b><span
+lang=EN-US>ST. KURIAKOSE COLLEGE OF MANAGEMENT AND SCIENCE</span></b><span
+lang=EN-US> for their valuable guidance and suggestions rendered during the
+mini-project.</span></p>
+
+<p id=33AA8AEF-A329-4B8C-8459-6DB84B507D4C class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=D66AA2EE-B24B-423E-B5AE-73DECA694FCE class=MsoNormalCxSpMiddle><span
+lang=EN-US>Finally, I thank my parents and all my friends for their help,
+encouragement, and moral support given to me during this work.</span></p>
+
+<p id=4ED5947D-83B4-400D-9108-8564B9F8695D class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=87D1F317-2272-4143-A8C4-1C99CE7A6B1F class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=4B979224-B901-496B-8487-FFCD8B8E70E4 class=MsoNormalCxSpMiddle
+align=right style='text-align:right'><b><span lang=EN-US>ARJUN SABU</span></b></p>
+
+</div>
+
+<b><span lang=EN-US style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:auto'>
+</span></b>
+
+<div class=WordSection4>
+
+<p id=44C662A6-1358-4BD2-9471-B657EE3F02C9 class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<span lang=EN-US style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman",serif'><br
+clear=all>
+</span>
+
+<p id=46B3BCC6-145B-4A7D-A4C7-52486016EF36 class=MsoNormalCxSpLast><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=7589E8A5-86AC-4419-8AE6-9D4B5CB35082 class=MsoTocHeading><span
+lang=EN-US>Table of Contents</span></p>
+
+<p id=D004C2EC-9FB1-4164-AF48-4A0172D227CB class=MsoToc1><span
+lang=EN-US><a href="#_Toc214053976">INTRODUCTION<span style='color:windowtext;
+display:none;text-decoration:none'>.. </span><span
+style='color:windowtext;display:none;text-decoration:none'>1</span></a></span></p>
+
+<p id=8D9CC20D-FFD5-4339-8343-CB28086F1B1F class=MsoToc2CxSpFirst><span
+lang=EN-US><a href="#_Toc214053977">1.1. Project Overview<span
+style='color:windowtext;display:none;text-decoration:none'>.. </span><span
+style='color:windowtext;display:none;text-decoration:none'>2</span></a></span></p>
+
+<p id=4E4858DF-B4C1-4EFA-9EBB-612E27D549D9 class=MsoToc2CxSpMiddle><span
+lang=EN-US><a href="#_Toc214053978">1.2. Problem Statement<span
+style='color:windowtext;display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>2</span></a></span></p>
+
+<p id=6572686E-EB1B-4216-B4CB-0D916D596F10 class=MsoToc2CxSpMiddle><span
+lang=EN-US><a href="#_Toc214053979">1.3. Project Objectives<span
+style='color:windowtext;display:none;text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>2</span></a></span></p>
+
+<p id=19D20DEE-571B-46B7-9525-4C5C99D65159 class=MsoToc2CxSpLast><span
+lang=EN-US><a href="#_Toc214053980">1.4. Scope of the Project<span
+style='color:windowtext;display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>3</span></a></span></p>
+
+<p id=BD8FBB24-B08A-4395-85FB-F3AA565858A6 class=MsoToc1><span lang=EN-US><a
+href="#_Toc214053981">SYSTEM SPECIFICATIONS<span style='color:windowtext;
+display:none;text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>5</span></a></span></p>
+
+<p id=51897158-1901-4B82-833B-353B379287E1 class=MsoToc2CxSpFirst><span
+lang=EN-US><a href="#_Toc214053982">2.1. Software Specification<span
+style='color:windowtext;display:none;text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>6</span></a></span></p>
+
+<p id=BFDD5A9C-E6CC-4ECB-9D19-9BA8D5986F8C class=MsoToc2CxSpLast><span
+lang=EN-US><a href="#_Toc214053983">2.2. Hardware Specification<span
+style='color:windowtext;display:none;text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>6</span></a></span></p>
+
+<p id=277E5CF5-8D02-48AA-9D25-6D50E8553C01 class=MsoToc1><span lang=EN-US><a
+href="#_Toc214053984">SYSTEM ANALYSIS<span style='color:windowtext;display:
+none;text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>8</span></a></span></p>
+
+<p id=282D5783-DB63-42DA-B228-703496D0BBD0 class=MsoToc2CxSpFirst><span
+lang=EN-US><a href="#_Toc214053985">3.1. Existing System<span style='color:
+windowtext;display:none;text-decoration:none'>.. </span><span style='color:windowtext;display:none;text-decoration:none'>9</span></a></span></p>
+
+<p id=0F5096B2-D494-4ED7-8E28-984A0F5AEB23 class=MsoToc2CxSpMiddle><span
+lang=EN-US><a href="#_Toc214053986">3.2. Proposed System<span style='color:
+windowtext;display:none;text-decoration:none'>.. </span><span style='color:windowtext;display:none;text-decoration:none'>9</span></a></span></p>
+
+<p id=36CD9A5F-08D2-46BE-A743-D0DB46CC3886 class=MsoToc2CxSpLast><span
+lang=EN-US><a href="#_Toc214053987">3.3. Feasibility Study<span
+style='color:windowtext;display:none;text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>10</span></a></span></p>
+
+<p id=28D0EA22-357D-478D-8C19-DC36C17E737E class=MsoToc1><span lang=EN-US><a
+href="#_Toc214053988">SYSTEM DESIGN &amp; ARCHITECTURE<span style='color:windowtext;
+display:none;text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>11</span></a></span></p>
+
+<p id=258BD236-CF12-41EF-B836-DE388A351D09 class=MsoToc2CxSpFirst><span
+lang=EN-US><a href="#_Toc214053989">4.1. System Architecture<span
+style='color:windowtext;display:none;text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>12</span></a></span></p>
+
+<p id=045E00C9-30B6-4C2D-8224-04D3E1A968EB class=MsoToc2CxSpMiddle><span
+lang=EN-US><a href="#_Toc214053990">4.2. Data Flow Diagram (DFD)<span
+style='color:windowtext;display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>12</span></a></span></p>
+
+<p id=F183F715-DB73-4FAE-A185-ACFCD76AFA82 class=MsoToc2CxSpLast><span
+lang=EN-US><a href="#_Toc214053991">4.3. Database Design<span style='color:
+windowtext;display:none;text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>13</span></a></span></p>
+
+<p id=C3019480-E40A-45FA-9F8E-F5B1B080C5A9 class=MsoToc3CxSpFirst><span
+lang=EN-US><a href="#_Toc214053992">4.3.1. Entity-Relationship Diagram (ERD)<span
+style='color:windowtext;display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>13</span></a></span></p>
+
+<p id=CC2F424A-3BE4-419C-861D-0291267A0E00 class=MsoToc3CxSpLast><span
+lang=EN-US><a href="#_Toc214053993">4.3.2. Database Schema (Table Definitions)<span
+style='color:windowtext;display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>13</span></a></span></p>
+
+<p id=E8A70E45-AC64-4103-873E-9E9F9ECD7094 class=MsoNormalCxSpFirst><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=C8F4490D-291E-40E4-8067-775CFF348475 class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=D0265810-B42C-40BF-9D78-72253FD6A3CB class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=E0950B4A-6BB2-433C-BE64-F8DD8FB0E4E6 class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=9087DD5C-7619-4F5C-83A0-B93E51FABA62 class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=4DB76200-D70C-4F0A-8A2C-850E909690F3 class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=2EE931A5-014E-4EAE-A7FB-4C6C32E121DD class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=8DC91049-2D30-4532-83C9-E6194073AC59 class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=3A6159B9-812B-41DB-B5F1-D6ABC008F35E class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=90F1EF14-3158-4037-A2F6-9CD49905408F class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=F0295F51-CB70-4C3D-A719-726BFEB2D5F4 class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=A63A6CA1-D41C-483A-A113-D325F583AF28 class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=7F15E429-41BD-48D3-A636-7D848305906E class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=37D73E64-40B7-41D0-B657-F1E5C0A0575B class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=3CF27B5A-91F9-41CB-AA43-C6E33F215B3E class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=ADB37C09-72DE-4C12-9E2F-686E050CEC56 class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=3725D527-D623-4970-84A1-2EB39AB47B48 class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=BF748A6F-6239-4F95-8456-46A21F409C20 class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=DEAF2EA9-BDC8-47C5-A961-0FF87D596BEE class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+</div>
+
+<span lang=EN-US style='font-size:12.0pt;line-height:115%;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:auto'>
+</span>
+
+<div class=WordSection5></div>
+
+<b><span lang=EN-US style='font-size:20.0pt;line-height:150%;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:always'>
+</span></b>
+
+<div class=WordSection6>
+
+<h1 id=0E31298F-46DE-48F6-AD07-1314FB26E3EA><a name="_Toc214053976"><span
+lang=EN-US>INTRODUCTION</span></a></h1>
+
+</div>
+
+<b><span lang=EN-US style='font-size:20.0pt;line-height:150%;font-family:"Times New Roman",serif'><br
+clear=all>
+</span></b>
+
+<div class=WordSection7>
+
+<h2 id=E382E1A6-CA4C-46AA-8A59-41F60B53668B><a name="_Toc214053977"><span
+lang=EN-US>1.1. Project Overview</span></a></h2>
+
+<p id=B2CF7ABF-BEB3-4C1F-AAC6-BCBAE154FC36 class=MsoNormal><span lang=EN-US>The
+University Portal Management System is a comprehensive, web-based application
+designed to replace traditional, paper-based university operations. It
+digitizes and streamlines key academic and administrative workflows by
+providing three distinct, role-based interfaces: an Admin Panel, a Teacher
+Panel, and a Student Panel. These modules are not isolated; they function as a
+single, interconnected ecosystem. Built on a foundation of PHP and JavaScript
+with a MySQL database, the system ensures that data—such as fee notices,
+assignment submissions, and grade entries—flows seamlessly and in real-time
+between all users, creating a centralized, efficient, and modern platform for
+managing all aspects of university life.</span></p>
+
+<h2 id=ADA40553-0B19-488A-AE6E-5345CC2CF56C><a name="_Toc214053978"><span
+lang=EN-US>1.2. Problem Statement</span></a></h2>
+
+<p id=C6639E2B-7747-455A-ACD6-AC2A4A10B7D2 class=MsoNormalCxSpFirst><span
+lang=EN-US>The traditional university management system relies heavily on
+manual, paper-based, and disconnected processes. This approach is fraught with
+inefficiencies that create significant bottlenecks for students, faculty, and
+administrators.</span></p>
+
+<p id=7C0516E9-AFF9-4AC1-8E0C-8905E60CE02B class=MsoNormalCxSpMiddle><span
+lang=EN-US>Key problems include:</span></p>
+
+<p id=E2BE2D63-54E1-414D-91A6-D172DFE6E5D3 class=MsoNormalCxSpMiddle><span
+lang=EN-US>Time-Consuming Processes:&nbsp;Students must stand in long queues to
+pay fees and physically visit different offices for administrative tasks.</span></p>
+
+<p id=C7E09C82-14FD-4447-8979-6EF0116AB23C class=MsoNormalCxSpMiddle><span
+lang=EN-US>Inefficient Communication:&nbsp;Important information, such as fee
+deadlines or exam schedules, is often posted on physical notice boards, leading
+to missed communications.</span></p>
+
+<p id=A25F6BAC-B741-482D-9858-FCE92FF2957A class=MsoNormalCxSpMiddle><span
+lang=EN-US>Manual Academic Tracking:&nbsp;Teachers are burdened with collecting
+physical assignments, manually tracking submissions in a register, and
+maintaining separate, offline grade books.</span></p>
+
+<p id=DD07ECA2-FF88-4179-8F00-982C8AB8C9B1 class=MsoNormalCxSpMiddle><span
+lang=EN-US>Data Fragmentation:&nbsp;There is no single source of truth. Student
+records, fee statuses, and academic grades are stored in separate, often
+incompatible, locations (e.g., paper files, multiple Excel sheets), making data
+retrieval and analysis extremely difficult.</span></p>
+
+<p id=9FA2641A-2FD9-4F8D-A086-738A8F53DB98 class=MsoNormalCxSpLast><span
+lang=EN-US>These legacy methods are slow, prone to human error, and lack the
+real-time data access required by a modern educational institution.</span></p>
+
+<h2 id=74963A37-57D6-4587-A378-AF4B46B75F03><a name="_Toc214053979"><span
+lang=EN-US>1.3. Project Objectives</span></a></h2>
+
+<p id=421EBE60-8A5B-4474-9519-C9632357A252 class=MsoNormalCxSpFirst><span
+lang=EN-US>The primary objective of this project is to design and develop a
+centralized, web-based University Portal Management System that solves the
+inefficiencies of the traditional model.</span></p>
+
+<p id=81591CAE-4A38-4B20-8FA1-03479D68A3FB class=MsoNormalCxSpMiddle><span
+lang=EN-US>The specific objectives are:</span></p>
+
+<p id=264CF5AA-1AEB-4661-AF2A-1310F7BA0C8E class=MsoNormalCxSpMiddle><span
+lang=EN-US>To Centralize Management:&nbsp;To develop a secure Admin Panel that
+consolidates all user management (student and teacher records) and financial
+operations (fee tracking) into a single, powerful control center.</span></p>
+
+<p id=A90BA175-341A-46DA-BECA-B1F554A8958D class=MsoNormalCxSpMiddle><span
+lang=EN-US>To Streamline Academic Workflows:&nbsp;To empower teachers with a
+dedicated panel for digitizing course management, including posting
+assignments, tracking submissions in real-time, and managing grades and
+attendance.</span></p>
+
+<p id=307B3772-043D-4634-8054-172282B61EC2 class=MsoNormalCxSpMiddle><span
+lang=EN-US>To Enhance the Student Experience:&nbsp;To provide students with a
+single, personalized portal for all their academic needs, including a real-time
+dashboard, a digital assignment submission hub, an online fee payment system,
+and instant access to their results and a virtual ID card.</span></p>
+
+<p id=47A4EB12-B581-4DFE-84AD-C74BB39C0606 class=MsoNormalCxSpLast><span
+lang=EN-US>To Improve Data Integrity &amp; Communication:&nbsp;To create a
+unified system where all data flows in real-time, ensuring that a single action
+(e.g., a teacher posting a grade) is instantly and accurately reflected for the
+relevant users (e.g., the student).</span></p>
+
+<h2 id=C7327319-4763-4B17-BFBF-5CD26A15B0E9><a name="_Toc214053980"><span
+lang=EN-US>1.4. Scope of the Project</span></a></h2>
+
+<p id=C92355C2-7403-47C9-9914-6BF8104DC80B class=MsoNormalCxSpFirst><span
+lang=EN-US>The scope of this project is to develop a fully functional web
+portal that handles the core academic and administrative operations of a
+university. The system is strictly defined by the functionalities within the
+following three modules:</span></p>
+
+<p id=FE38D767-F4C4-4E6F-B757-1164987E9FBF class=MsoNormalCxSpMiddle><b><span
+lang=EN-US>Admin Panel Scope:</span></b></p>
+
+<p id=B0712A2E-CAD7-478A-9E5A-27BD666C2BF8 class=MsoNormalCxSpMiddle><span
+lang=EN-US>Full Create, Read, Update, and Delete (CRUD) operations for all
+student and teacher accounts.</span></p>
+
+<p id=C9BD2D0C-5966-43D5-AA97-16CF51C65336 class=MsoNormalCxSpMiddle><span
+lang=EN-US>Complete financial management, including the ability to broadcast
+new fee notices to specific cohorts.</span></p>
+
+<p id=8D3BB082-D41D-4F8B-AD36-40D112FC1612 class=MsoNormalCxSpMiddle><span
+lang=EN-US>Configuration of the&nbsp;Three-Tier Deadline System&nbsp;(No Fine,
+Fine, Super Fine) for all fees.</span></p>
+
+<p id=BB64E880-B3F2-48EC-8A68-F99CDBB1E2E9 class=MsoNormalCxSpMiddle><span
+lang=EN-US>Tracking of all pending and completed payments, with the ability to
+send individual and bulk reminders.</span></p>
+
+<p id=F2C1D9EC-1C57-45F3-ADD0-CC79E797DAD8 class=MsoNormalCxSpMiddle><span
+lang=EN-US>Management of the university's academic structure, including adding
+subjects and assigning teachers to those subjects.</span></p>
+
+<p id=5A6A33AE-2591-410A-B95D-8A31E274D435 class=MsoNormalCxSpMiddle><b><span
+lang=EN-US>Teacher Panel Scope:</span></b></p>
+
+<p id=74A8C467-B141-41BF-AAD1-9AD5687AFB95 class=MsoNormalCxSpMiddle><span
+lang=EN-US>Viewing class rosters with multi-criteria filtering (by department,
+semester, batch, or name).</span></p>
+
+<p id=2D31E306-83C4-4629-B71B-2918B5F2847C class=MsoNormalCxSpMiddle><span
+lang=EN-US>The complete assignment lifecycle: creating new assignments,
+distributing them to classes, and tracking submission status in real-time.</span></p>
+
+<p id=8927DDB0-C775-44D3-B94D-9C14AE7C56FE class=MsoNormalCxSpMiddle><span
+lang=EN-US>A module for entering, reviewing, and finalizing student marks for
+all subjects.</span></p>
+
+<p id=9639BAE7-4A58-4BD5-B000-BA8CB5937078 class=MsoNormalCxSpMiddle><span
+lang=EN-US>A digital interface for taking and logging daily class attendance.</span></p>
+
+<p id=25C14BD2-8326-412F-B9AD-33F6A6FE69AD class=MsoNormalCxSpMiddle><b><span
+lang=EN-US>Student Panel Scope:</span></b></p>
+
+<p id=B1065870-6CAA-4A06-9F12-4FC4BFFC2145 class=MsoNormalCxSpMiddle><span
+lang=EN-US>A personalized dashboard displaying key academic statistics (GPA,
+Attendance) and real-time notifications for new assignments.</span></p>
+
+<p id=79D16096-F796-4F85-B200-837A73D0CE7A class=MsoNormalCxSpMiddle><span
+lang=EN-US>A secure, interactive&nbsp;3D Virtual ID Card&nbsp;with a flippable
+back panel and a downloadable PDF option.</span></p>
+
+<p id=AE706348-6EA2-460E-8E9D-2869E844A0BF class=MsoNormalCxSpMiddle><span
+lang=EN-US>A comprehensive assignment hub for viewing pending assignments (with
+countdowns) and submitting work via a file upload interface.</span></p>
+
+<p id=DC7D4FD9-1137-4636-A861-DEDA88F97081 class=MsoNormalCxSpMiddle><span
+lang=EN-US>An online payments page to view all pending fees (with deadline
+tiers) and complete transactions.</span></p>
+
+<p id=C50E32A5-2CF2-40F2-A953-1B5FFFF46AF4 class=MsoNormalCxSpMiddle><span
+lang=EN-US>A results page to view all historical and current semester marks,
+along with calculated SGPA and CGPA.</span></p>
+
+<p id=F97F1294-CE10-4056-B74C-7F699AB0FED8 class=MsoNormalCxSpMiddle><span
+lang=EN-US>Out of Scope:&nbsp;This project does not include modules for library
+management, class timetable generation, hostel management, transport
+management, or a parent/alumni portal. These are identified as potential future
+enhancements.</span></p>
+
+<p id=E5A00F2F-B33E-4FDC-A17A-68367899C858 class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=0D99AAA1-160F-4FFC-8607-1DD4A30203BF class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=2591CC39-F958-4750-894F-D94A8C62ED71 class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=909CEA7C-7490-4F60-A84E-B1655CEF3B55 class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=F8F47F61-05B7-44D6-A75F-14E166A57919 class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=AAA48F4C-4A8F-4715-8DC0-7D6805F61EA4 class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=526B3A28-DD4A-4B3E-A0D8-8D430137C870 class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=D4B71899-750F-4F2A-90D5-484B10CDB7B6 class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=75CBB131-33AB-447B-808A-06FC9EE75F4D class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=8EB09257-7185-4AB0-900D-5D0895CCFB8F class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+</div>
+
+<span lang=EN-US style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:auto'>
+</span>
+
+<div class=WordSection8></div>
+
+<span lang=EN-US style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:auto'>
+</span>
+
+<div class=WordSection9></div>
+
+<span lang=EN-US style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<div class=WordSection10>
+
+<h1 id=B9A228F3-042D-46F0-B7F2-1E8FEB1025F4><a name="_Toc214053981"><span
+lang=EN-US>SYSTEM SPECIFICATIONS</span></a></h1>
+
+</div>
+
+<b><span lang=EN-US style='font-size:20.0pt;line-height:150%;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:always'>
+</span></b>
+
+<div class=WordSection11>
+
+<h2 id=E31A8309-77CE-419C-9632-F325AD7B7D60><a name="_Toc214053982"><span
+lang=EN-US>2.1. Software Specification</span></a></h2>
+
+<p id=EAFA2AE8-F93E-403F-A8B1-0A8DDFDB288A class=MsoNormalCxSpFirst><span
+lang=EN-US>The system is developed using a combination of foundational web
+technologies and modern frameworks to ensure a robust and dynamic application.</span></p>
+
+<p id=A6C1E5C0-F301-416C-B344-0E347A322E0F class=MsoNormalCxSpMiddle><b><span
+lang=EN-US>Presentation Layer (Client-Side):</span></b></p>
+
+<p id=7B23CA62-A38E-47B8-972F-4A2AA176DDC1 class=MsoNormalCxSpMiddle><span
+lang=EN-US>HTML5:&nbsp;Used for the core structure and semantic markup of all
+web pages.</span></p>
+
+<p id=6D319AC6-D061-4310-89D3-17ABFB6A6D98 class=MsoNormalCxSpMiddle><span
+lang=EN-US>CSS3:&nbsp;Used for all custom styling, layout, and responsive
+design.</span></p>
+
+<p id=94431E81-7546-44B8-9CA0-39CB769223C3 class=MsoNormalCxSpMiddle><span
+lang=EN-US>JavaScript (ES6+):&nbsp;Used for all client-side interactivity, DOM
+manipulation, and handling user events.</span></p>
+
+<p id=14B48096-47B2-4304-879E-81A53B027C0E class=MsoNormalCxSpMiddle><b><span
+lang=EN-US>Business Logic Layer (Server-Side):</span></b></p>
+
+<p id=769A6DAC-4E32-4AA3-880F-45A1BE497392 class=MsoNormalCxSpMiddle><span
+lang=EN-US>PHP:&nbsp;Serves as the primary server-side language, handling all
+API requests, business logic, user authentication, and secure database
+communication.</span></p>
+
+<p id=897987E5-ED96-4F92-86FA-85E31FD35F53 class=MsoNormalCxSpMiddle><span
+lang=EN-US>Data Storage Layer:</span></p>
+
+<p id=982C23AD-3946-4C7F-A9B5-9AD6C88740D2 class=MsoNormalCxSpMiddle><span
+lang=EN-US>MySQL:&nbsp;A relational database management system used to store
+all persistent data, including user tables, academic records, fee information,
+and assignment details.</span></p>
+
+<p id=8B197190-1013-4E2D-ACA1-D7DA877FB198 class=MsoNormalCxSpMiddle><b><span
+lang=EN-US>Key Frameworks &amp; Libraries Used:</span></b></p>
+
+<p id=BE4AF635-F7F4-4913-BB68-90673861CB79 class=MsoNormalCxSpMiddle><span
+lang=EN-US>React.js:&nbsp;A JavaScript library used to build the fast,
+component-based, and dynamic user interface.</span></p>
+
+<p id=9A33A722-A852-4A2D-B4AC-D5C1B1B25E03 class=MsoNormalCxSpMiddle><span
+lang=EN-US>Tailwind CSS:&nbsp;A utility-first CSS framework used for rapid and
+consistent styling.</span></p>
+
+<p id=336A9740-CE0A-41DB-95C3-8E83B598C28F class=MsoNormalCxSpMiddle><span
+lang=EN-US>Framer Motion:&nbsp;A React animation library used to create smooth
+transitions and interactive UI effects like the 3D Virtual ID Card.</span></p>
+
+<p id=E77D6E84-B2F4-4DB2-863F-10DAE4541987 class=MsoNormalCxSpMiddle><b><span
+lang=EN-US>Real-time &amp; Application Server:</span></b></p>
+
+<p id=EB1A4AA9-103B-47CB-A8CF-92DB78786833 class=MsoNormalCxSpLast><span
+lang=EN-US>Node.js:&nbsp;Used as a separate server to manage all real-time
+WebSocket connections, enabling instant updates for features like assignment
+notifications.</span></p>
+
+<h2 id=997CC4BC-143E-4937-984B-7F27879F2FFE><a name="_Toc214053983"><span
+lang=EN-US>2.2. Hardware Specification</span></a></h2>
+
+<p id=CF7D719E-C4C4-4767-BF71-A8BC605438C5 class=MsoNormalCxSpFirst><span
+lang=EN-US>To run the University Portal Management System effectively, the
+following hardware is recommended:</span></p>
+
+<p id=141E9EBA-CAFC-4B87-A060-9DBC1DDE62C7 class=MsoNormalCxSpMiddle><b><span
+lang=EN-US>Server Side (Minimum Requirements):</span></b></p>
+
+<p id=05F8B90D-9AB3-45A6-BDA1-EEE7E30B8E05 class=MsoNormalCxSpMiddle><span
+lang=EN-US>Processor:&nbsp;2.4 GHz Quad-Core CPU (e.g., Intel Xeon)</span></p>
+
+<p id=5DB4C166-7FBF-4DD0-AE60-91BB26A9A711 class=MsoNormalCxSpMiddle><span
+lang=EN-US>RAM:&nbsp;8 GB</span></p>
+
+<p id=00FBC6B3-95C4-4C42-AD2D-BA1BEE47D9AE class=MsoNormalCxSpMiddle><span
+lang=EN-US>Storage:&nbsp;250 GB SSD (or faster) for the database and
+application files.</span></p>
+
+<p id=8DC121C5-A0ED-43F1-AB32-995281B0C0C2 class=MsoNormalCxSpMiddle><span
+lang=EN-US>Network:&nbsp;A stable, high-speed internet connection.</span></p>
+
+<p id=AC902233-B761-4EBB-B42D-EC5BF2A2B9CA class=MsoNormalCxSpMiddle><b><span
+lang=EN-US>Client Side (Recommended):</span></b></p>
+
+<p id=1CCB71E7-EE9D-4C4C-B884-074FE4C0AD61 class=MsoNormalCxSpMiddle><span
+lang=EN-US>Device:&nbsp;Any modern desktop, laptop, tablet, or smartphone.</span></p>
+
+<p id=720BF76A-2D16-416A-900D-A5E2FB25F2FC class=MsoNormalCxSpMiddle><span
+lang=EN-US>RAM:&nbsp;4 GB or more.</span></p>
+
+<p id=B5EB1205-E73A-4AF7-B6D8-52D4C9AF730E class=MsoNormalCxSpMiddle><span
+lang=EN-US>Web Browser:&nbsp;An up-to-date version of Google Chrome, Mozilla
+Firefox, Safari, or Microsoft Edge.</span></p>
+
+<p id=58C08D7C-08C0-41AD-A2BF-4845679FCA64 class=MsoNormalCxSpMiddle><span
+lang=EN-US>Network:&nbsp;A stable internet connection (Broadband or 4G/5G).</span></p>
+
+</div>
+
+<span lang=EN-US style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<div class=WordSection12>
+
+<h1 id=B2AD25C3-50CD-4D29-B83D-0E7A0ED8DB15><a name="_Toc214053984"><span
+lang=EN-US>SYSTEM ANALYSIS</span></a><span lang=EN-US><br clear=all
+style='page-break-before:always'>
+</span></h1>
+
+<h2 id=D93924F1-C32F-464E-A0E0-04B2D095B88E><a name="_Toc214053985"><span
+lang=EN-US>3.1. Existing System</span></a></h2>
+
+<p id=4ADD8D58-5917-474E-A7AC-3F011E40127D class=MsoNormalCxSpFirst><span
+lang=EN-US>The existing system for university management is characterized by
+its reliance on traditional, manual, and disconnected processes. This legacy
+approach is inefficient and creates significant operational challenges for
+administrators, faculty, and students alike.</span></p>
+
+<p id=0AAA4F38-0F96-4847-9036-C3842C24692D class=MsoNormalCxSpMiddle><span
+lang=EN-US>Process Bottlenecks:&nbsp;Key workflows are physical and
+time-consuming. Students are required to stand in long queues to pay fees at an
+administrative office. Assignment submission is a physical process, with
+teachers collecting printed papers, which is logistically difficult to manage.</span></p>
+
+<p id=B468AF65-FEF9-481F-8F46-13A5278E706F class=MsoNormalCxSpMiddle><span
+lang=EN-US>Ineffective Communication:&nbsp;The primary method for disseminating
+information is the physical notice board. This makes it easy for students to
+miss critical announcements regarding fee deadlines, exam schedules, or
+academic events.</span></p>
+
+<p id=E8DC46D4-09BC-4D19-88E8-212B20604179 class=MsoNormalCxSpMiddle><span
+lang=EN-US>Data Fragmentation and Redundancy:&nbsp;There is no single source of
+truth. Student records, financial statuses, and academic grades are often
+maintained in separate paper registers, filing cabinets, or disparate Excel
+spreadsheets. This fragmentation makes data retrieval difficult and leads to
+human error, inconsistencies, and a lack of real-time reporting.</span></p>
+
+<p id=72BA080B-95E5-45B9-A695-C5E113602C19 class=MsoNormalCxSpLast><span
+lang=EN-US>Manual Academic Tracking:&nbsp;Teachers are burdened with
+significant administrative overhead. They must manually track assignment
+submissions in a physical register, maintain separate grade books, and manually
+calculate attendance percentages from a paper log. This diverts valuable time
+that could be spent on teaching.</span></p>
+
+<h2 id=20D51EA9-C169-4045-A045-2B332634D46C><a name="_Toc214053986"><span
+lang=EN-US>3.2. Proposed System</span></a></h2>
+
+<p id=B0539D51-B1DB-45E3-B51C-624F3E5A3B3B class=MsoNormalCxSpFirst><span
+lang=EN-US>The proposed University Portal Management System is a centralized,
+web-based application designed to solve the core problems of the existing
+system. It digitizes the entire academic and administrative workflow into a
+single, cohesive ecosystem.</span></p>
+
+<p id=2B6CE1FA-D765-4108-B206-92A4047DB228 class=MsoNormalCxSpMiddle><span
+lang=EN-US>Centralized Digital Platform:&nbsp;The system replaces physical
+paperwork and queues with a dynamic web portal. Students can pay fees online,
+submit assignments via file upload, and check results from any device,
+eliminating the need to be physically present on campus for these tasks.</span></p>
+
+<p id=7CB4D253-0705-419F-9109-3A2231D543BC class=MsoNormalCxSpMiddle><span
+lang=EN-US>Role-Based Access:&nbsp;The system is built on three interconnected
+modules (Admin, Teacher, and Student). Each user role has a secure, tailored
+interface, ensuring they only access the data and tools necessary for their
+functions.</span></p>
+
+<p id=214CD358-A383-4F17-87C0-D2E5ECDF76A4 class=MsoNormalCxSpMiddle><span
+lang=EN-US>Real-Time Data and Communication:&nbsp;The system functions as a
+single source of truth. When an admin sends a fee notice or a teacher posts an
+assignment, it appears instantly on the student's dashboard. This ensures
+reliable, immediate communication and eliminates information silos.</span></p>
+
+<p id=11417F68-1DA7-4661-B3C0-B887B5149ED5 class=MsoNormalCxSpLast><span
+lang=EN-US>Automation of Administrative Tasks:&nbsp;The portal automates the
+most burdensome tasks. The system automatically calculates fines based on the
+3-tier deadline, tracks assignment submission status in real-time, and
+instantly calculates SGPA/CGPA as marks are entered. This frees administrators
+and teachers to focus on their primary responsibilities.</span></p>
+
+<h2 id=7C505625-1268-496D-A755-8B2B855E2961><a name="_Toc214053987"><span
+lang=EN-US>3.3. Feasibility Study</span></a></h2>
+
+<p id=1F4DB7A3-11AE-48DD-BC5F-1B53707C5457 class=MsoNormalCxSpFirst><span
+lang=EN-US>A feasibility study was conducted to analyze the viability of the
+proposed system.</span></p>
+
+<p id=B10986EA-A1C0-44ED-81E2-4CB3693F8E85 class=MsoNormalCxSpMiddle><span
+lang=EN-US>Technical Feasibility: The project is technically feasible. The
+chosen technology stack—PHP and Node.js for the dual backend, MySQL for the
+database, and JavaScript (React) for the frontend—are all mature,
+well-documented, and robust technologies. They are fully capable of handling
+the required functionalities, including database operations, user
+authentication (JWTs), file uploads, and real-time (WebSocket) communication.</span></p>
+
+<p id=9A02DE31-12FC-4F3E-9970-C19F3C5CDDD9 class=MsoNormalCxSpMiddle><span
+lang=EN-US>Operational Feasibility: The proposed system is highly operationally
+feasible. It is designed to be intuitive and directly maps to the existing
+workflows it replaces.</span></p>
+
+<p id=22F4FFEE-266C-4176-9400-9B7C707E905B class=MsoNormalCxSpMiddle><span
+lang=EN-US>Admins:&nbsp;Get a powerful dashboard that simplifies their existing
+tasks of user and fee management.</span></p>
+
+<p id=97C27B3E-3EC1-419B-BFB4-896B96F5BFFD class=MsoNormalCxSpMiddle><span
+lang=EN-US>Teachers:&nbsp;Receive tools that drastically reduce their manual
+administrative workload (grading, attendance), allowing them to adopt the
+system with minimal friction.</span></p>
+
+<p id=35363C7D-A18B-42CE-A1C3-1FB3A8F5C6DD class=MsoNormalCxSpMiddle><span
+lang=EN-US>Students:&nbsp;Are provided with a single, user-friendly
+&quot;digital campus&quot; that is more convenient and efficient than the
+existing manual processes.</span></p>
+
+<p id=8F8E922A-D0FB-4EE3-8ED0-4318941545FC class=MsoNormalCxSpMiddle><span
+lang=EN-US>Economic Feasibility: The project is economically feasible. While
+there is an initial one-time development cost, the long-term return on
+investment is significant. The system will drastically reduce the
+administrative overhead, cut down on costs associated with paper and printing,
+and eliminate the &quot;hidden&quot; costs of human error in financial and
+academic record-keeping. The automation of tasks will lead to a direct increase
+in staff productivity and operational efficiency.</span></p>
+
+<span lang=EN-US style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<p id=83735883-D51D-48F8-96DE-423C962B9275 class=MsoNormalCxSpLast><span
+lang=EN-US>&nbsp;</span></p>
+
+<h1 id=A9FC712C-3113-4D75-A69F-5950FD555534><a name="_Toc214053988"><span
+lang=EN-US>SYSTEM DESIGN &amp; ARCHITECTURE</span></a></h1>
+
+<span lang=EN-US style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<p id=897DFA13-76D6-426E-990F-54E46FF118B2 class=MsoNormalCxSpFirst><span
+lang=EN-US>&nbsp;</span></p>
+
+</div>
+
+<span lang=EN-US style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<div class=WordSection13>
+
+<h2 id=BEF012A5-3277-4BB4-8B56-3BF2E3F30B6B><a name="_Toc214053989"><span
+lang=EN-US>4.1. System Architecture</span></a></h2>
+
+<p id=F2CFEAEB-627F-444F-BEE9-3148430C08AB class=MsoNormalCxSpFirst><span
+lang=EN-US>The system is designed using a modern 3-tier architecture,
+separating the&nbsp;Presentation (Client),&nbsp;Logic (Server), and&nbsp;Data
+(Database)&nbsp;layers. A key feature of this project's architecture is
+a&nbsp;dual-backend system, which strategically separates the traditional data
+request/response logic from real-time communication.</span></p>
+
+<p id=8C028FD6-8EAE-4AE5-9AA7-570650A5834D class=MsoNormalCxSpMiddle><span
+lang=EN-US>Presentation Layer (Client):&nbsp;A dynamic, single-page application
+(SPA) built in&nbsp;React.js. This layer runs entirely in the user's browser,
+managing the UI, state, and all user interactions.</span></p>
+
+<p id=DA481D04-40C1-4F2C-8BF9-46A1A5200D02 class=MsoNormalCxSpMiddle><span
+lang=EN-US>Logic Layer 1 (API Server):&nbsp;A robust&nbsp;PHP server&nbsp;acts
+as the primary API backend. It is responsible for handling all business logic,
+processing data, managing file uploads, and executing all secure Create, Read,
+Update, and Delete (CRUD) operations with the database. It also handles user
+authentication by issuing and validating stateless&nbsp;JWTs (JSON Web Tokens).</span></p>
+
+<p id=7C28188F-BAEE-4713-8178-A07506E9C375 class=MsoNormalCxSpMiddle><span
+lang=EN-US>Logic Layer 2 (Real-time Server):&nbsp;A separate&nbsp;Node.js
+server. Its primary role is to serve the React application and manage all
+persistent&nbsp;WebSocket&nbsp;connections. This server is responsible for
+pushing &quot;instant&quot; updates to the client, such as an assignment status
+changing to &quot;Submitted&quot; for a teacher the moment a student uploads
+it.</span></p>
+
+<p id=441124FF-8F66-44D3-9DB0-51AF130562F4 class=MsoNormalCxSpMiddle><span
+lang=EN-US>Data Layer (Database):&nbsp;A&nbsp;MySQL&nbsp;relational database
+serves as the single source of truth, storing all persistent data for users,
+academics, and finances.</span></p>
+
+<p id=76117FF4-4F41-4331-9288-4DA098CE1811 class=MsoNormalCxSpMiddle><span
+lang=EN-US>[<a href="app://obsidian.md/index.html#comment" target="_blank">#comment</a>:
+Add High-Level System Architecture Diagram visual here.]</span></p>
+
+<p id=785FD7AA-90B2-4B5F-A7CC-7D2E1F361119 class=MsoNormalCxSpLast><span
+lang=EN-US>This diagram will show the Client (React App) communicating with the
+PHP API Server for &quot;API Requests&quot; and the Node.js Server for
+&quot;Real-time WebSocket Connection.&quot; It will also show the PHP API
+Server querying the MySQL Database and sending a &quot;Trigger Update&quot; to
+the Node.js Server.</span></p>
+
+<h2 id=308D514E-F05B-4687-B4EC-6936A05F7150><a name="_Toc214053990"><span
+lang=EN-US>4.2. Data Flow Diagram (DFD)</span></a></h2>
+
+<p id=DFC5627E-A665-4EE3-A117-DF031537982F class=MsoNormalCxSpFirst><span
+lang=EN-US>A Data Flow Diagram (DFD) is used to illustrate how data moves
+through the system from an external entity to a process and into a data store.</span></p>
+
+<p id=E7F33E16-64A4-44B1-A0EB-83E750F62B40 class=MsoNormalCxSpMiddle><span
+lang=EN-US>The&nbsp;Level 0 Context Diagram&nbsp;below defines the boundary of
+the entire system. It shows the portal as a single, central process and
+illustrates the primary data inputs and outputs for its three external
+entities:&nbsp;Admin,&nbsp;Teacher, and&nbsp;Student.</span></p>
+
+<p id=943FE511-DAE0-4640-B3AD-FEEF73C1F5FD class=MsoNormalCxSpMiddle><span
+lang=EN-US>[<a href="app://obsidian.md/index.html#comment" target="_blank">#comment</a>:
+Add DFD Level 0 (Context Diagram) visual here.]</span></p>
+
+<p id=FF71A2B3-EC15-4E5B-94D1-6A6733A1FD43 class=MsoNormalCxSpLast><span
+lang=EN-US>This DFD will show a single central circle labeled &quot;University
+Portal System.&quot; It will be connected via data-flow arrows to three
+external rectangles (entities): Admin, Teacher, and Student, showing the
+high-level inputs and outputs for each.</span></p>
+
+<h2 id=A13BAE69-E89E-4865-9DF4-CCFABE94C4FA><a name="_Toc214053991"><span
+lang=EN-US>4.3. Database Design</span></a></h2>
+
+<p id=65389CC6-48CA-4FB8-A48C-5B7FE2F6F838 class=MsoNormal><span lang=EN-US>The
+data storage layer is implemented using a&nbsp;MySQL&nbsp;relational database.
+The schema is designed following normalization principles to reduce data
+redundancy, ensure data integrity, and provide a scalable foundation for the
+application.</span></p>
+
+<h3 id=06FB350F-3F1B-432B-819D-0C03F10DA427><a name="_Toc214053992">4.3.1.
+Entity-Relationship Diagram (ERD)</a></h3>
+
+<p id=FF1268EF-5EC2-475D-AA2B-780E4FD4B6BD class=MsoNormalCxSpFirst><span
+lang=EN-US>The Entity-Relationship Diagram (ERD) is the master blueprint for
+the database. It visually represents all database tables (entities) and the
+logical relationships (one-to-one, one-to-many, many-to-many) between them.</span></p>
+
+<p id=FA65F2B2-2280-4303-90A6-87909DB07FD7 class=MsoNormalCxSpMiddle><span
+lang=EN-US>The central entity is the&nbsp;users&nbsp;table, which holds all
+profiles and is differentiated by a&nbsp;role&nbsp;column. This table has
+multiple relationships:</span></p>
+
+<p id=FE5CD786-564D-475C-812C-5EE8F01A3B72 class=MsoNormalCxSpMiddle><span
+lang=EN-US>A&nbsp;user&nbsp;(with&nbsp;role='admin')
+creates&nbsp;fee_payments&nbsp;for a&nbsp;user&nbsp;(with&nbsp;role='student').</span></p>
+
+<p id=C2E24A5A-62E2-44EC-B478-62E932C05BF1 class=MsoNormalCxSpMiddle><span
+lang=EN-US>A&nbsp;user&nbsp;(with&nbsp;role='staff') is linked to
+a&nbsp;subject&nbsp;via the&nbsp;subject_assignments&nbsp;table.</span></p>
+
+<p id=9711E3AB-70AA-4DDF-8A89-05C934513857 class=MsoNormalCxSpMiddle><span
+lang=EN-US>A&nbsp;user&nbsp;(with&nbsp;role='staff') creates&nbsp;assignments.</span></p>
+
+<p id=66919E07-9C14-4FA1-A357-9D603C39C187 class=MsoNormalCxSpMiddle><span
+lang=EN-US>An&nbsp;assignment&nbsp;generates
+multiple&nbsp;assignment_submissions, each linked to
+a&nbsp;user&nbsp;(with&nbsp;role='student').</span></p>
+
+<p id=22DD9BAD-97D7-4793-819A-DBE8B9D8C6FE class=MsoNormalCxSpMiddle><span
+lang=EN-US>marks&nbsp;and&nbsp;attendance&nbsp;are also logged against
+a&nbsp;user&nbsp;(with&nbsp;role='student').</span></p>
+
+<p id=68446C23-CCB5-4365-89CE-5609B6B7AF15 class=MsoNormalCxSpMiddle><span
+lang=EN-US>A&nbsp;user&nbsp;(with&nbsp;role='admin')
+creates&nbsp;payment_receipts&nbsp;for
+a&nbsp;user&nbsp;(with&nbsp;role='student').</span></p>
+
+<p id=E8738681-BC0C-4B1D-9841-0D2585F1192E class=MsoNormalCxSpMiddle><span
+lang=EN-US>[<a href="app://obsidian.md/index.html#comment" target="_blank">#comment</a>:
+Add Entity-Relationship Diagram (ERD) visual here.]</span></p>
+
+<p id=7501A270-562E-4A65-891E-F4E71B20725B class=MsoNormalCxSpLast><span
+lang=EN-US>This diagram will visually connect all 11 tables (users, subjects,
+subject_assignments, assignments, assignment_submissions, marks, attendance,
+fee_payments, payment_receipts, notices, sessions) using crow's foot notation
+to illustrate their primary and foreign key relationships.</span></p>
+
+<h3 id=1607469B-A585-4529-8D07-567DD7340FB4><a name="_Toc214053993">4.3.2.
+Database Schema (Table Definitions)</a></h3>
+
+<p id=1B203E4E-1987-4571-94D7-BF8D5A19066D class=MsoNormal><span lang=EN-US>The
+following sections define the specific fields, data types, and constraints for
+all 11 tables in the database schema.</span></p>
+
+<h4 id=DB779210-0E85-4C77-87CE-69869B0925D2><span lang=EN-US>4.3.2.1.&nbsp;users&nbsp;(User
+Profiles Table)</span></h4>
+
+<p id=7B8B060C-D697-4E2B-BE37-8F3DE2179647 class=MsoNormalCxSpFirst><span
+lang=EN-US>This is the central table, storing the profiles for all students,
+teachers (staff), and administrators in a unified structure.
+A&nbsp;role&nbsp;column differentiates their permissions and access.</span></p>
+
+<p id=7C978BD0-BF81-4E99-BB65-F6E020383782 class=MsoNormalCxSpLast><span
+lang=EN-US>[<a href="app://obsidian.md/index.html#comment" target="_blank">#comment</a>:
+Add the table definition for&nbsp;users&nbsp;here, as specified
+in&nbsp;database schema 1.md.]</span></p>
+
+<h4 id=28BAB678-8A29-4719-BA3D-E7C264AF780A><span lang=EN-US>4.3.2.2.&nbsp;subjects&nbsp;(Academic
+Subjects Table)</span></h4>
+
+<p id=8CE4A2AE-7CB4-44B7-B0B5-28B9250D29D4 class=MsoNormalCxSpFirst><span
+lang=EN-US>This table stores the complete list of all academic subjects offered
+by the university, including their code, name, department, semester, and credit
+value.</span></p>
+
+<p id=B2CA9688-DACA-4863-A09A-9F624473ABBC class=MsoNormalCxSpLast><span
+lang=EN-US>[<a href="app://obsidian.md/index.html#comment" target="_blank">#comment</a>:
+Add the table definition for&nbsp;subjects&nbsp;here, as specified
+in&nbsp;database schema 1.md.]</span></p>
+
+<h4 id=1A2A1C35-1BB5-4146-A23D-B021D885FFC5><span lang=EN-US>4.3.2.3.&nbsp;subject_assignments&nbsp;(Teacher-to-Subject
+Mapping Table)</span></h4>
+
+<p id=430749F5-472A-46D8-87B6-C8A1EE3057E2 class=MsoNormalCxSpFirst><span
+lang=EN-US>This is a junction table that maps a&nbsp;teacher&nbsp;(from
+the&nbsp;users&nbsp;table) to a&nbsp;subject&nbsp;(from
+the&nbsp;subjects&nbsp;table). This is critical for knowing which teacher
+teaches which course.</span></p>
+
+<p id=A48D0F38-A74F-4901-A15A-E07360C97DEE class=MsoNormalCxSpLast><span
+lang=EN-US>[<a href="app://obsidian.md/index.html#comment" target="_blank">#comment</a>:
+Add the table definition for&nbsp;subject_assignments&nbsp;here, as specified
+in&nbsp;database schema 1.md.]</span></p>
+
+<h4 id=F78145CA-2C5B-411C-B9A4-DFC1D1317CBD><span lang=EN-US>4.3.2.4.&nbsp;assignments&nbsp;(Assignment
+Details Table)</span></h4>
+
+<p id=C96A2A4F-81E6-42B0-94F5-35EA962037FF class=MsoNormalCxSpFirst><span
+lang=EN-US>This table stores the metadata for every assignment created by a
+teacher, including the topic, description, due date, and target
+department/semester.</span></p>
+
+<p id=C3DB8DB5-58EB-4D34-872A-F5C6B586CE7B class=MsoNormalCxSpLast><span
+lang=EN-US>[<a href="app://obsidian.md/index.html#comment" target="_blank">#comment</a>:
+Add the table definition for&nbsp;assignments&nbsp;here, as specified
+in&nbsp;database schema 1.md.]</span></p>
+
+<h4 id=BEA15CFF-AD93-4F80-A83A-C497B049C6B1><span lang=EN-US>4.3.2.5.&nbsp;assignment_submissions&nbsp;(Student
+Submission Tracking Table)</span></h4>
+
+<p id=A9537BDA-0EA0-435A-8E89-DF237487DCD3 class=MsoNormalCxSpFirst><span
+lang=EN-US>This table tracks the status of every assignment for every student.
+It links an&nbsp;assignment_id&nbsp;to a&nbsp;student_id&nbsp;and stores
+the&nbsp;status&nbsp;(e.g., 'not_submitted', 'submitted'), the path to the
+uploaded file, and the submission timestamp.</span></p>
+
+<p id=9CA3B5FC-B576-4CFE-A924-93772402BE19 class=MsoNormalCxSpLast><span
+lang=EN-US>[<a href="app://obsidian.md/index.html#comment" target="_blank">#comment</a>:
+Add the table definition for&nbsp;assignment_submissions&nbsp;here, as
+specified in&nbsp;database schema 1.md.]</span></p>
+
+<h4 id=9D374FFE-F8F0-441B-B467-83B13C34DF52><span lang=EN-US>4.3.2.6.&nbsp;marks&nbsp;(Student
+Grades Table)</span></h4>
+
+<p id=B5C846F0-14B8-495B-BF6D-F9CFD9F04570 class=MsoNormalCxSpFirst><span
+lang=EN-US>This table stores the official academic grades (internal, theory,
+practical) for each student in each subject. This data is used to calculate
+SGPA and CGPA.</span></p>
+
+<p id=4084CB84-8CA9-4FB7-BECF-39E7766EDFFD class=MsoNormalCxSpLast><span
+lang=EN-US>[<a href="app://obsidian.md/index.html#comment" target="_blank">#comment</a>:
+Add the table definition for&nbsp;marks&nbsp;here, as specified
+in&nbsp;database schema 1.md.]</span></p>
+
+<h4 id=F4ED93BC-456C-47B7-9737-3CA972C245A6><span lang=EN-US>4.3.2.7.&nbsp;attendance&nbsp;(Daily
+Attendance Log)</span></h4>
+
+<p id=22821A47-8383-476E-8F55-20DC9C36A21D class=MsoNormalCxSpFirst><span
+lang=EN-US>This table logs the daily attendance record
+(present,&nbsp;absent,&nbsp;late) for each student in each class session, as
+marked by a teacher.</span></p>
+
+<p id=5CDFB31D-7A10-475F-B982-0CBD7EFDA605 class=MsoNormalCxSpLast><span
+lang=EN-US>[<a href="app://obsidian.md/index.html#comment" target="_blank">#comment</a>:
+Add the table definition for&nbsp;attendance&nbsp;here, as specified
+in&nbsp;database schema 1.md.]</span></p>
+
+<h4 id=94899F8F-B3CB-4BFC-A494-63474B0911AA><span lang=EN-US>4.3.2.8.&nbsp;fee_payments&nbsp;(Fee
+Tracking Table)</span></h4>
+
+<p id=556E96B2-DFB7-4032-9DA9-BBF14B78948E class=MsoNormalCxSpFirst><span
+lang=EN-US>This table stores every single fee notice sent to a student. It
+includes the fee amount, the three-tier deadline dates, the associated fine
+amounts, and the current payment&nbsp;status&nbsp;('pending' or 'paid').</span></p>
+
+<p id=BDEE6867-5315-4299-8C82-F3894C428453 class=MsoNormalCxSpLast><span
+lang=EN-US>[<a href="app://obsidian.md/index.html#comment" target="_blank">#comment</a>:
+Add the table definition for&nbsp;fee_payments&nbsp;here, as specified
+in&nbsp;database schema 1.md.]</span></p>
+
+<h4 id=FF9CF4F2-9CF6-487C-B6BF-4F3432AFC634><span lang=EN-US>4.3.2.9.&nbsp;payment_receipts&nbsp;(Payment
+History Table)</span></h4>
+
+<p id=1EB88304-9DC8-4773-BA2B-2D329ACDF513 class=MsoNormalCxSpFirst><span
+lang=EN-US>This table stores a record for every successful transaction, linking
+it to the original&nbsp;fee_payments&nbsp;entry and storing the transaction ID
+and receipt number.</span></p>
+
+<p id=8E3887DB-8DC9-4EC1-896E-6D3FBF065CD3 class=MsoNormalCxSpLast><span
+lang=EN-US>[<a href="app://obsidian.md/index.html#comment" target="_blank">#comment</a>:
+Add the table definition for&nbsp;payment_receipts&nbsp;here, as specified
+in&nbsp;database schema 1.md.]</span></p>
+
+<h4 id=BC508840-F51E-4C14-B992-4CAAB81BF88E><span lang=EN-US>4.3.2.10.&nbsp;notices&nbsp;(Announcements
+Table)</span></h4>
+
+<p id=109B86B5-56F7-4D98-A6DF-8398C7975A5E class=MsoNormalCxSpFirst><span
+lang=EN-US>This table stores the announcements (title, content, category)
+posted by the admin to the general Notice Board for all users.</span></p>
+
+<p id=B13DA77C-EE4C-436D-AE3A-8787ED358E13 class=MsoNormalCxSpLast><span
+lang=EN-US>[<a href="app://obsidian.md/index.html#comment" target="_blank">#comment</a>:
+Add the table definition for&nbsp;notices&nbsp;here, as specified
+in&nbsp;database schema 1.md.]</span></p>
+
+<h4 id=8A4A6BDE-AC04-4FB0-812D-3D1843F65FE1><span lang=EN-US>4.3.2.11.&nbsp;sessions&nbsp;(User
+Login Session Table)</span></h4>
+
+<p id=FCD6B269-F936-4C69-A539-1EDA059B6F7B class=MsoNormalCxSpFirst><span
+lang=EN-US>This table is used to manage user authentication by storing active
+login sessions and their corresponding JWTs.</span></p>
+
+<p id=2495FD4A-58A8-44D3-A89F-1283F513177D class=MsoNormalCxSpMiddle><span
+lang=EN-US>[<a href="app://obsidian.md/index.html#comment" target="_blank">#comment</a>:
+Add the table definition for&nbsp;sessions&nbsp;here, as specified
+in&nbsp;database schema 1.md.]</span></p>
+
+<p id=B84EE25A-F56A-4745-95FD-0CFF08C754F6 class=MsoNormalCxSpMiddle><span
+lang=EN-US>.</span></p>
+
+<span lang=EN-US style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman",serif'><br
+clear=all>
+</span></div>
+
+<span lang=EN-US style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman",serif'><br
+clear=all style='page-break-before:always'>
+</span>
+
+<div class=WordSection14>
+
+<p id=4585826E-8358-4B42-95A1-97F5D21386AC class=MsoNormalCxSpMiddle><span
+lang=EN-US>&nbsp;</span></p>
+
+<p id=39573926-5177-4A6C-A959-089659C5B22E class=MsoNormalCxSpLast><span
+lang=EN-US>&nbsp;</span></p>
+
+</div>
+
+</body>
+
+</html>
