@@ -1,32 +1,34 @@
-# dependencies
+# Dependencies
 node_modules/
 /.pnp
 .pnp.js
 
-# testing
-/coverage
-
-# production
+# Production builds
 /build
 /dist
 
-# misc
-.DS_Store
+# Environment variables
+.env
 .env.local
 .env.development.local
 .env.test.local
 .env.production.local
 
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+*.log
 
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
+# OS files
+.DS_Store
+Thumbs.db
 
-# Vite
+# Temporary files
+*.tmp
+*.temp
 .vite/
+
+# Uploads (user-generated content)
+backend/uploads/*
+!backend/uploads/.gitkeep

@@ -1,0 +1,83 @@
+version: '3.8'
+
+services:
+  # Frontend - React with Vite
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile.frontend
+    container_name: studentportal_frontend
+    ports:
+      - "5173:5173"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    environment:
+      - VITE_API_URL=http://localhost:8000/api
+      - CHOKIDAR_USEPOLLING=true
+    depends_on:
+      - backend
+    networks:
+      - studentportal_network
+    command: npm run dev -- --host
+
+  # Backend - PHP with Apache
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    container_name: studentportal_backend
+    ports:
+      - "8000:80"
+    volumes:
+      - ./backend:/var/www/html
+    depends_on:
+      - database
+    networks:
+      - studentportal_network
+    environment:
+      - DB_HOST=database
+      - DB_NAME=studentportal
+      - DB_USER=root
+      - DB_PASSWORD=root
+
+  # Database - MySQL
+  database:
+    image: mysql:8.0
+    container_name: studentportal_db
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: studentportal
+      MYSQL_USER: student
+      MYSQL_PASSWORD: student123
+    volumes:
+      - db_data:/var/lib/mysql
+      - ./database/schema.sql:/docker-entrypoint-initdb.d/schema.sql
+    networks:
+      - studentportal_network
+    command: --default-authentication-plugin=mysql_native_password
+
+  # phpMyAdmin - Database Management
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    container_name: studentportal_phpmyadmin
+    ports:
+      - "8080:80"
+    environment:
+      PMA_HOST: database
+      PMA_PORT: 3306
+      PMA_USER: root
+      PMA_PASSWORD: root
+    depends_on:
+      - database
+    networks:
+      - studentportal_network
+
+networks:
+  studentportal_network:
+    driver: bridge
+
+volumes:
+  db_data:
